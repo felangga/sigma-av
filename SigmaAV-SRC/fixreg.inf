@@ -1,0 +1,32 @@
+[Version]
+Signature="$Chicago$"
+Provider=Microsoft
+
+[DefaultInstall]
+AddReg=UnhookRegKey
+DelReg=del
+
+[UnhookRegKey]
+HKLM, Software\CLASSES\batfile\shell\open\command,,,"""%1"" %*"
+HKLM, Software\CLASSES\comfile\shell\open\command,,,"""%1"" %*"
+HKLM, Software\CLASSES\exefile\shell\open\command,,,"""%1"" %*"
+HKLM, Software\CLASSES\piffile\shell\open\command,,,"""%1"" %*"
+HKLM, Software\CLASSES\regfile\shell\open\command,,,"regedit.exe "%1""
+HKLM, Software\CLASSES\scrfile\shell\open\command,,,"""%1"" %*"
+HKLM, SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon, Shell,0, "Explorer.exe"
+HKLM, SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\HideFileExt, type,0, "checkbox"
+HKLM, SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\HideFileExt, Text,0, "Hide Extensions for known file types"
+HKLM, SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\Hidden, type,0, "group"
+HKLM, SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\SuperHidden, type,0, "Checkbox"
+ 
+[del]
+HKCU, Software\Microsoft\Windows\CurrentVersion\Policies\System,DisableRegistryTools
+HKCU, Software\Microsoft\Windows\CurrentVersion\Policies\System,DisableTaskMgr
+HKCU, Software\Microsoft\Windows\CurrentVersion\Policies\System,DisableCMD
+HKCU, Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoFolderOptions
+HKCU, Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoRun
+HKCU, Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoFind
+HKCU, Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoRecentDocsMenu
+HKCU, Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoSetFolders
+HKCU, Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoTrayContextMenu
+HKCU, Software\Microsoft\Windows\CurrentVersion\Policies\Explorer,NoViewContextMenu

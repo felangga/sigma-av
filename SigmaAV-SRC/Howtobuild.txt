@@ -1,0 +1,36 @@
+Cara mengkompilasi SIGMA AV - Delphi 7
+
+F_Computer & XTF_Computer Company
+Copyright 2006 - 2009. 
+FREE INDONESIAN ANTIVIRUS
+
+Pastikan memasang Tools berikut :
+- SUI PACK (Tampilan tema MacOS)
+- MadShi, gunakan MadExcept yang versi 3.0. bisa didownload di www.madshi.net
+- CoolTrayIcon (Tray Icon)
+- ShellNotify (System Notification)
+- Credits (Tampilan credits)
+
+
+SUI PACK (Full Edition)
+- Tinggal dijalankan setup.exe dan pilih versi Delphi yang anda gunakan dan Install. 
+
+MadShi 
+- Maaf yang ini tidak saya sertakan dalam situs saya, karena terlalu besar untuk diupload kembali, mendingan download aja langsung dari situsnya, di www.madshi.net, pada saat penginstallan, dan kompilasi program, aktifkan dan pastikan antivirus yang anda gunakan terupdate dan aktif. Karena saya curigai, mengandung virus W32/Induc.
+
+CoolTrayIcon
+- Berfungsi menampilkan Sigma di system tray. Untuk memasang buildernya, pilih CoolTrayIcon_D6plus.dpk atau sesuai dengan versi Delphi anda, untuk Delphi 7, anda bisa menggunakan yang D6Plus.
+
+ShellNotify
+- Disini membantu kita dalam proses informasi pada saat anda melakukan aktivitas pada proses Explorer.exe. Misalnya kita menghapus file A di drive C:\ maka ShellNotify ini akan memberikan informasi kepada Sigma bahwa file telah terhapus di drive C:\. Cara kompilasi nya dengan membuka notify.dpk dan pilih Install.
+
+Credits
+- Hanya untuk tampilan About.
+
+Setelah semua tools selesai dipasang di Delphi anda, maka buka source Sigma dan buka file Sigma.dpr dan pilih Run.
+
+
+Regards
+
+F_Computer & XTF_Computer Company
+xtfcomp@gmail.com

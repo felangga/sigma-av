@@ -1,0 +1,1687 @@
+date/time         : 2009-12-15, 13:35:40, 125ms
+computer name     : FCOMPUTER-03120
+user name         : FComputer <admin>
+registered owner  : FComputer / FComputer & XTF_Computer Company
+operating system  : Windows XP Service Pack 2 build 2600
+system language   : English
+system up time    : 13 hours 57 minutes
+program up time   : 27 seconds
+processors        : 2x AMD Turion(tm) II Dual-Core Mobile M520
+physical memory   : 450/764 MB (free/total)
+free disk space   : (C:) 86,81 GB
+display mode      : 1366x768, 32 bit
+process id        : $c74
+allocated memory  : 18,32 MB
+command line      : "C:\Program Files\Borland\Delphi7\Projects\SigmaAV\Sigma.exe" G:\RECYCLER\S-5-3-42-2819952290-8240758988-879315005-3665
+executable        : Sigma.exe
+exec. date/time   : 2009-12-14 14:56
+version           : 1.0.0.40
+compiled with     : Delphi 7
+madExcept version : 3.0k
+callstack crc     : $bb876aa8, $086422af, $920c7a61
+exception number  : 1
+exception class   : EInvalidOperation
+exception message : Canvas does not allow drawing.
+
+thread $7f0 (TAvScanner):
+00477201 +03d Sigma.exe Graphics           TCanvas.RequiredState
+00477102 +012 Sigma.exe Graphics           TCanvas.GetHandle
+004a9cdd +135 Sigma.exe StdCtrls           TCustomLabel.DoDrawText
+004a9e92 +062 Sigma.exe StdCtrls           TCustomLabel.AdjustBounds
+004aa03d +011 Sigma.exe StdCtrls           TCustomLabel.CMTextChanged
+004b60f8 +188 Sigma.exe Controls           TControl.WndProc
+004b5ec8 +024 Sigma.exe Controls           TControl.Perform
+004b4cb9 +01d Sigma.exe Controls           TControl.SetTextBuf
+004b4d2a +03a Sigma.exe Controls           TControl.SetText
+00553556 +49a Sigma.exe avScanner 1159 +52 ScanDird
+005531b0 +0f4 Sigma.exe avScanner 1125 +18 ScanDird
+005536fa +026 Sigma.exe avScanner 1173  +2 ScanDir
+00553ce7 +003 Sigma.exe avKernel    91  +0 TAvScanner.AvScanDir
+00553dbe +082 Sigma.exe avKernel   117 +10 TAvScanner.Execute
+0044fd9b +02b Sigma.exe madExcept          HookedTThreadExecute
+0047250c +034 Sigma.exe Classes            ThreadProc
+00404c14 +028 Sigma.exe System             ThreadWrapper
+0044fc7d +00d Sigma.exe madExcept          CallThreadProcSafe
+0044fce7 +037 Sigma.exe madExcept          ThreadExceptFrame
+>> created by main thread ($e38) at:
+0054b5dc +0a0 Sigma.exe uMain     1091 +14 TMainForm.ScanBTNClick
+
+main thread ($e38): <priority:2>
+7e419406 +00a user32.dll              WaitMessage
+004d54dc +0f0 Sigma.exe  Forms        TApplication.Idle
+004d4b23 +017 Sigma.exe  Forms        TApplication.HandleMessage
+004d4d36 +096 Sigma.exe  Forms        TApplication.Run
+00555bd8 +1d8 Sigma.exe  Sigma 78 +31 initialization
+
+thread $de8:
+7c90e9a9 +0a ntdll.dll              NtWaitForMultipleObjects
+0044fc7d +0d Sigma.exe    madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe    madExcept ThreadExceptFrame
+>> created by main thread ($e38) at:
+77dfa17c +00 advapi32.dll
+
+thread $934:
+7c90e9be +0a ntdll.dll              NtWaitForSingleObject
+7c8025c5 +85 kernel32.dll           WaitForSingleObjectEx
+7c80252d +0d kernel32.dll           WaitForSingleObject
+77c3a3ad +a6 msvcrt.dll             _endthreadex
+0044fc7d +0d Sigma.exe    madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe    madExcept ThreadExceptFrame
+>> created by main thread ($e38) at:
+77c3a43d +62 msvcrt.dll             _beginthreadex
+
+thread $940 (TShellChangeThread):
+7c90e9a9 +0a ntdll.dll               NtWaitForMultipleObjects
+7c8094dc +00 kernel32.dll            WaitForMultipleObjectsEx
+7c80a070 +13 kernel32.dll            WaitForMultipleObjects
+00526a26 +56 Sigma.exe    ShellCtrls TShellChangeThread.Execute
+0044fd9b +2b Sigma.exe    madExcept  HookedTThreadExecute
+0047250c +34 Sigma.exe    Classes    ThreadProc
+00404c14 +28 Sigma.exe    System     ThreadWrapper
+0044fc7d +0d Sigma.exe    madExcept  CallThreadProcSafe
+0044fce7 +37 Sigma.exe    madExcept  ThreadExceptFrame
+>> created by main thread ($e38) at:
+00526970 +48 Sigma.exe    ShellCtrls TShellChangeThread.Create
+
+thread $c70:
+7c90e397 +0a ntdll.dll            NtReplyWaitReceivePortEx
+0044fc7d +0d Sigma.exe  madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe  madExcept ThreadExceptFrame
+>> created by main thread ($e38) at:
+77e7df0e +00 RPCRT4.dll
+
+thread $9c:
+7c90d85a +0a ntdll.dll              NtDelayExecution
+7c8023e7 +4b kernel32.dll           SleepEx
+7c80244c +0a kernel32.dll           Sleep
+0044fc7d +0d Sigma.exe    madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe    madExcept ThreadExceptFrame
+>> created by main thread ($e38) at:
+7752fd94 +00 ole32.dll
+
+thread $ecc:
+7c90e397 +0a ntdll.dll            NtReplyWaitReceivePortEx
+0044fc7d +0d Sigma.exe  madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe  madExcept ThreadExceptFrame
+>> created by thread $c70 at:
+77e7df0e +00 RPCRT4.dll
+
+modules:
+00400000 Sigma.exe             1.0.0.40         C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+006c0000 qtintf70.dll          7.0.4.258        C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+03150000 Normaliz.dll          6.0.5441.0       C:\windows\system32
+033b0000 btwpimif.dll          5.5.0.7500       C:\WINDOWS\system32
+03400000 BTNEIG~1.DLL          5.5.0.7500       C:\WINDOWS\system32
+03520000 wbtapi.dll            5.5.0.7500       C:\WINDOWS\system32
+035e0000 btosif.dll            5.5.0.7500       C:\WINDOWS\system32
+03620000 BtXpPanel.Dll         5.5.0.7500       C:\windows\system32
+03660000 btrez.dll             5.5.0.7500       C:\windows\system32
+03870000 btwicons.dll          1.0.0.1          C:\windows\system32
+04450000 ieframe.dll           7.0.6000.16414   C:\WINDOWS\system32
+04ce0000 xpsp2res.dll          5.1.2600.2180    C:\windows\system32
+05950000 FixReg.dll                             C:\Program Files\Borland\Delphi7\Projects\SigmaAV\Plugins
+059c0000 borlndmm.dll          7.0.4.453        C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+07160000 audiodev.dll          5.2.5721.5145    C:\windows\system32
+0ffd0000 rsaenh.dll            5.1.2600.2161    C:\windows\system32
+10000000 btmmhook.dll          5.5.0.7500       C:\windows\system32
+10930000 portabledeviceapi.dll 5.2.5721.5145    C:\WINDOWS\system32
+11c70000 WMASF.DLL             11.0.5721.5145   C:\windows\system32
+15110000 WMVCore.DLL           11.0.5721.5145   C:\windows\system32
+16210000 wpdshext.dll          5.2.5721.5145    C:\windows\system32
+20000000 odbcint.dll           3.525.1117.0     C:\windows\system32
+44400000 madCHook.dll          2.2.7.0          C:\windows\system32
+47600000 msi.dll               3.1.4000.4003    C:\WINDOWS\system32
+4ec50000 gdiplus.dll           5.1.3102.2180    C:\windows\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.2600.2180_x-ww_522f9f82
+59370000 wiadefui.dll          5.1.2600.2180    C:\windows\System32
+593f0000 wiashext.dll          5.1.2600.2180    C:\windows\system32
+5a800000 AntiKill.dll                           C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+5ad70000 UxTheme.dll           6.0.2900.2845    C:\windows\system32
+5b860000 NETAPI32.dll          5.1.2600.2976    C:\windows\system32
+5edd0000 olepro32.dll          5.1.2600.2180    C:\windows\system32
+61410000 URLMON.DLL            7.0.6000.16414   C:\windows\system32
+661c0000 GRA8E1~1.DLL          12.0.4518.1014   C:\PROGRA~1\MICROS~2\Office12
+68ef0000 GrooveUtil.DLL        12.0.4518.1014   C:\PROGRA~1\MICROS~2\Office12
+68ff0000 GrooveNew.DLL         12.0.4518.1014   C:\PROGRA~1\MICROS~2\Office12
+6e850000 iertutil.dll          7.0.6000.16414   C:\windows\system32
+71aa0000 WS2HELP.dll           5.1.2600.2180    C:\windows\system32
+71ab0000 WS2_32.dll            5.1.2600.2180    C:\windows\system32
+71ad0000 wsock32.dll           5.1.2600.2180    C:\windows\system32
+71b20000 MPR.dll               5.1.2600.2180    C:\windows\system32
+71bf0000 SAMLIB.dll            5.1.2600.2180    C:\windows\System32
+71c10000 ntlanman.dll          5.1.2600.2686    C:\windows\System32
+71c80000 NETRAP.dll            5.1.2600.2180    C:\windows\System32
+71c90000 NETUI1.dll            5.1.2600.2180    C:\windows\System32
+71cd0000 NETUI0.dll            5.1.2600.2180    C:\windows\System32
+73000000 winspool.drv          5.1.2600.2180    C:\windows\system32
+732e0000 RICHED32.DLL          5.1.2600.0       C:\windows\system32
+73380000 zipfldr.dll           6.0.2900.2180    C:\windows\system32
+73ba0000 sti.dll               5.1.2600.2180    C:\WINDOWS\system32
+73d70000 shgina.dll            6.0.2900.2180    C:\WINDOWS\system32
+73dd0000 MFC42.DLL             6.2.4131.0       C:\WINDOWS\system32
+74320000 ODBC32.dll            3.525.1117.0     C:\windows\system32
+74720000 MSCTF.dll             5.1.2600.3085    C:\windows\system32
+74ae0000 CFGMGR32.dll          5.1.2600.2180    C:\WINDOWS\system32
+74e30000 RICHED20.dll          5.30.23.1228     C:\windows\system32
+755c0000 msctfime.ime          5.1.2600.2180    C:\windows\system32
+75970000 MSGINA.dll            5.1.2600.2180    C:\windows\system32
+75f60000 drprov.dll            5.1.2600.2180    C:\windows\System32
+75f70000 davclnt.dll           5.1.2600.2180    C:\windows\System32
+75f80000 browseui.dll          6.0.2900.2995    C:\windows\system32
+76080000 MSVCP60.dll           6.2.3104.0       C:\WINDOWS\system32
+76360000 WINSTA.dll            5.1.2600.2180    C:\windows\system32
+76380000 MSImg32.dll           5.1.2600.2180    C:\windows\system32
+76390000 IMM32.DLL             5.1.2600.2180    C:\windows\system32
+763b0000 comdlg32.dll          6.0.2900.2180    C:\windows\system32
+76600000 CSCDLL.dll            5.1.2600.2180    C:\windows\System32
+76980000 LINKINFO.dll          5.1.2600.2839    C:\windows\system32
+76990000 ntshrui.dll           5.1.2600.2180    C:\windows\system32
+769c0000 USERENV.dll           5.1.2600.2180    C:\windows\system32
+76b20000 ATL.DLL               3.5.2284.0       C:\windows\system32
+76b40000 WINMM.dll             5.1.2600.2180    C:\WINDOWS\system32
+76bf0000 PSAPI.DLL             5.1.2600.2180    C:\WINDOWS\system32
+76c30000 WINTRUST.dll          5.131.2600.2180  C:\windows\system32
+76c90000 IMAGEHLP.DLL          5.1.2600.2180    C:\windows\system32
+76e80000 rtutils.dll           5.1.2600.2180    C:\WINDOWS\system32
+76e90000 rasman.dll            5.1.2600.2180    C:\WINDOWS\system32
+76eb0000 TAPI32.dll            5.1.2600.2180    C:\WINDOWS\system32
+76ee0000 RASAPI32.dll          5.1.2600.2180    C:\WINDOWS\system32
+76fd0000 CLBCATQ.DLL           2001.12.4414.312 C:\windows\system32
+77050000 COMRes.dll            2001.12.4414.258 C:\windows\system32
+77120000 oleaut32.dll          5.1.2600.2180    C:\windows\system32
+771b0000 WININET.dll           7.0.6000.20512   C:\windows\system32
+773d0000 comctl32.dll          6.0.2900.2982    C:\windows\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03
+774e0000 ole32.dll             5.1.2600.2948    C:\windows\system32
+77920000 SETUPAPI.dll          5.1.2600.2938    C:\windows\system32
+77a20000 cscui.dll             5.1.2600.2180    C:\windows\System32
+77a80000 CRYPT32.dll           5.131.2600.2180  C:\windows\system32
+77b20000 MSASN1.dll            5.1.2600.2180    C:\windows\system32
+77b40000 apphelp.dll           5.1.2600.2180    C:\windows\system32
+77c00000 version.dll           5.1.2600.2180    C:\windows\system32
+77c10000 msvcrt.dll            7.0.2600.3085    C:\windows\system32
+77dd0000 advapi32.dll          5.1.2600.2180    C:\windows\system32
+77e70000 RPCRT4.dll            5.1.2600.3173    C:\windows\system32
+77f10000 GDI32.dll             5.1.2600.3099    C:\windows\system32
+77f60000 SHLWAPI.dll           6.0.2900.2995    C:\windows\system32
+77fe0000 Secur32.dll           5.1.2600.2180    C:\windows\system32
+78130000 MSVCR80.dll           8.0.50727.4053   C:\windows\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_e6967989
+7c630000 ATL80.DLL             8.0.50727.4053   C:\windows\WinSxS\x86_Microsoft.VC80.ATL_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_473666fd
+7c800000 kernel32.dll          5.1.2600.2991    C:\windows\system32
+7c900000 ntdll.dll             5.1.2600.2180    C:\windows\system32
+7c9c0000 shell32.dll           6.0.2900.3051    C:\windows\system32
+7e410000 user32.dll            5.1.2600.3099    C:\windows\system32
+
+processes:
+000 Idle              0   0
+004 System            0   0   normal
+2ec smss.exe          0   0   normal       C:\windows\system32
+534 csrss.exe         68  63  normal       C:\windows\system32
+554 winlogon.exe      44  14  high         C:\windows\system32
+580 services.exe      4   2   normal       C:\windows\system32
+58c lsass.exe         4   4   normal       C:\windows\system32
+624 Ati2evxx.exe      7   7   normal       C:\windows\system32
+634 svchost.exe       4   1   normal       C:\windows\system32
+6a4 svchost.exe       4   1   normal       C:\windows\system32
+6cc svchost.exe       11  32  normal       C:\windows\System32
+0b4 svchost.exe       4   1   normal       C:\windows\system32
+0d4 svchost.exe       4   1   normal       C:\windows\system32
+198 Ati2evxx.exe      7   8   normal       C:\windows\system32
+328 aswUpdSv.exe      4   1   normal       C:\Program Files\Alwil Software\Avast4
+358 ashServ.exe       49  21  high         C:\Program Files\Alwil Software\Avast4
+444 spoolsv.exe       4   4   normal       C:\windows\system32
+524 mscorsvw.exe      4   2   normal       C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727
+648 fbguard.exe       11  6   normal       C:\Program Files\Firebird\Firebird_1_5\bin
+664 fbserver.exe      11  6   normal       C:\Program Files\Firebird\Firebird_1_5\bin
+718 mdm.exe           4   3   normal       C:\Program Files\Common Files\Microsoft Shared\VS7Debug
+798 svchost.exe       9   5   normal       C:\windows\system32
+1c0 btwdins.exe       4   5   normal       C:\Program Files\WIDCOMM\Bluetooth Software\bin
+21c ashMaiSv.exe      11  6   normal       C:\Program Files\Alwil Software\Avast4
+22c ashWebSv.exe      4   1   normal       C:\Program Files\Alwil Software\Avast4
+300 alg.exe           4   2   normal       C:\windows\System32
+a2c Explorer.EXE      637 396 normal       C:\windows
+a68 wscntfy.exe       22  8   normal       C:\windows\system32
+b88 SynTPEnh.exe      62  33  above normal C:\Program Files\Synaptics\SynTP
+ba8 RTHDCPL.EXE       730 166 normal       C:\windows
+bc0 GrooveMonitor.exe 7   4   normal       C:\Program Files\Microsoft Office\Office12
+bc8 LManager.exe      43  16  normal       C:\Program Files\Launch Manager
+bdc winampa.exe       10  4   normal       C:\Program Files\Winamp
+be8 ashDisp.exe       83  61  normal       C:\PROGRA~1\ALWILS~1\Avast4
+bf0 nhc.exe           155 298 normal       C:\Program Files\Notebook Hardware Control
+c04 Sigma.exe         552 207 normal       C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+c2c ctfmon.exe        17  11  normal       C:\windows\system32
+ca4 ida.exe           243 119 normal       C:\Program Files\IDA
+cb4 BTTray.exe        19  26  normal       C:\Program Files\WIDCOMM\Bluetooth Software
+510 mom.exe           7   9   normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+794 ccc.exe           87  46  normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+f18 NOTEPAD.EXE       22  19  normal       C:\windows\System32
+f34 WinRAR.exe        137 49  normal       C:\Program Files\WinRAR
+b64 cmd.exe           4   1   normal       C:\windows\system32
+450 ntvdm.exe         5   1   normal       C:\windows\system32
+c74 Sigma.exe         598 250 normal       C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ Bluetooth Devices
+  - Bluetooth Bus Enumerator (driver 5.5.0.7100)
++ Computer
+  - ACPI Multiprocessor PC
++ Disk drives
+  - Kingston DataTraveler 2.0 USB Device
+  - WDC WD3200BEVT-22ZCT0
++ Display adapters
+  - AMD M880G with ATI Mobility Radeon HD 4200      (driver 8.634.0.0)
++ DVD/CD-ROM drives
+  - HL-DT-ST DVDRAM GT30N
++ IDE ATA/ATAPI controllers
+  - Primary IDE Channel
+  - Secondary IDE Channel
+  - Standard Dual Channel PCI IDE Controller
++ Imaging devices
+  - USB Video Device
++ Keyboards
+  - Launch Manager (driver 2.0.1.218)
++ Mice and other pointing devices
+  - Synaptics PS/2 Port TouchPad (driver 12.2.2.0)
++ Modems
+  - HDAUDIO Soft Data Fax Modem with SmartCP (driver 7.80.4.53)
++ Monitors
+  - Default Monitor
+  - Default Monitor
+  - Default Monitor
+  - Plug and Play Monitor
++ Network adapters
+  - Atheros AR5B93 Wireless Network Adapter (driver 7.7.0.348)
+  - Atheros AR8131 PCI-E Gigabit Ethernet Controller (driver 1.0.0.23)
++ Ports (COM & LPT)
+  - Bluetooth Communications Port (COM4) (driver 5.5.0.2300)
++ Processors
+  - AMD Turion(tm) II Dual-Core Mobile M520
+  - AMD Turion(tm) II Dual-Core Mobile M520
++ Sound, video and game controllers
+  - ATI Function Driver for High Definition Audio - ATI 791A (driver 5.0.50000.16)
+  - Audio Codecs
+  - Legacy Audio Drivers
+  - Legacy Video Capture Devices
+  - Media Control Devices
+  - Realtek High Definition Audio (driver 5.10.0.5904)
+  - Video Codecs
++ System devices
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - ACPI Sleep Button
+  - ACPI Thermal Zone
+  - ATI SMBus (driver 5.10.1000.8)
+  - Direct memory access controller
+  - ISAPNP Read Data Port
+  - Logical Disk Manager
+  - Microcode Update Device
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Composite Battery
+  - Microsoft System Management BIOS Driver
+  - Microsoft UAA Bus Driver for High Definition Audio
+  - Microsoft UAA Bus Driver for High Definition Audio
+  - Microsoft Windows Management Interface for ACPI
+  - Motherboard resources
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard ISA bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - System board
+  - System CMOS/real time clock
+  - System speaker
+  - System timer
+  - Terminal Server Device Redirector
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - Volume Manager
++ Universal Serial Bus controllers
+  - Standard Enhanced PCI to USB Host Controller
+  - Standard Enhanced PCI to USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - USB Composite Device
+  - USB Mass Storage Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 03d7c0c0
+ebx = fea5780f
+ecx = 00000000
+edx = 00477206
+esi = 015a8708
+edi = 0594f935
+eip = 00477206
+esp = 0594f8b8
+ebp = 0594f92c
+
+stack dump:
+0594f8b8  06 72 47 00 de fa ed 0e - 01 00 00 00 07 00 00 00  .rG.............
+0594f8c8  cc f8 94 05 06 72 47 00 - c0 c0 d7 03 0f 78 a5 fe  .....rG......x..
+0594f8d8  08 87 5a 01 35 f9 94 05 - 2c f9 94 05 e8 f8 94 05  ..Z.5...,.......
+0594f8e8  0f 98 5a 01 40 04 00 00 - 08 87 5a 01 07 71 47 00  ..Z.@.....Z..qG.
+0594f8f8  88 96 5a 01 e2 9c 4a 00 - 64 0a d9 03 20 00 00 00  ..Z...J.d.......
+0594f908  35 f9 94 05 40 04 00 00 - b4 fa 94 05 3c 45 40 00  5...@.......<E@.
+0594f918  2c f9 94 05 88 96 5a 01 - a8 9b 4a 00 9f 06 01 0b  ,.....Z...J.....
+0594f928  00 00 00 00 84 fa 94 05 - 97 9e 4a 00 90 00 00 00  ..........J.....
+0594f938  00 00 00 00 00 8e 00 00 - 00 0d 00 00 00 00 00 00  ................
+0594f948  01 00 00 00 30 9e 4a 00 - 88 96 5a 01 42 a0 4a 00  ....0.J...Z.B.J.
+0594f958  88 96 5a 01 90 fa 94 05 - fb 60 4b 00 01 00 00 00  ..Z......`K.....
+0594f968  20 52 7f 05 88 96 5a 01 - ca f9 94 05 3f 9b 91 7c  .R....Z.....?..|
+0594f978  d8 c0 97 7c eb 9a 91 7c - 7b 6c 00 00 68 fa 94 05  ...|...|{l..h...
+0594f988  88 8f 80 7c f2 f9 94 05 - ec f9 94 00 ec f9 94 05  ...|............
+0594f998  34 39 90 7c 3f 9b 91 7c - d8 c0 97 7c e0 fa 94 05  49.|?..|...|....
+0594f9a8  00 00 90 7c 90 fa 94 05 - c8 f9 94 05 c8 f9 94 05  ...|............
+0594f9b8  00 00 00 00 40 9a 00 00 - 18 1f 26 00 3d 39 91 7c  ....@.....&.=9.|
+0594f9c8  c0 e9 90 7c 1b 90 91 7c - 34 04 00 00 00 00 00 00  ...|...|4.......
+0594f9d8  00 00 00 00 c0 e9 90 7c - 1b 90 91 7c 34 04 00 00  .......|...|4...
+0594f9e8  00 00 00 00 00 00 00 00 - 20 43 5a 01 c2 13 0a 8b  .........CZ.....
+
+disassembling:
+[...]
+0055353e                -$14e553 ($404ff0)     ; System.@LStrCatN
+00553543                edx, [ebp-$1d4]
+00553549                eax, [$55ca74]
+0055354e                eax, [eax]
+00553550                eax, [eax+$358]
+00553556      >         -$9e86b ($4b4cf0)      ; Controls.TControl.SetText
+0055355b 1160           eax, [$55ca74]
+00553560                eax, [eax]
+00553562                eax, [eax+$468]
+00553568                edx, [eax+$16c]
+0055356e                ecx, [$55ca74]
+[...]
+
+date/time         : 2009-12-15, 21:46:40, 921ms
+computer name     : FCOMPUTER-03120
+user name         : FComputer <admin>
+registered owner  : FComputer / FComputer & XTF_Computer Company
+operating system  : Windows XP Service Pack 2 build 2600
+system language   : English
+system up time    : 7 hours 3 minutes
+program up time   : 7 hours 3 minutes
+processors        : 2x AMD Turion(tm) II Dual-Core Mobile M520
+physical memory   : 339/764 MB (free/total)
+free disk space   : (C:) 86,66 GB
+display mode      : 1366x768, 32 bit
+process id        : $8d8
+allocated memory  : 15,90 MB
+command line      : "C:\Program Files\Borland\Delphi7\Projects\SigmaAV\Sigma.exe" /hid
+executable        : Sigma.exe
+exec. date/time   : 2009-12-14 14:56
+version           : 1.0.0.40
+compiled with     : Delphi 7
+madExcept version : 3.0k
+callstack crc     : $ff2e495b, $5d6345a9, $18b63b50
+count             : 2
+exception number  : 1
+exception class   : EOSError
+exception message : System Error. Code: 1400. Invalid window handle.
+
+main thread ($8dc): <priority:2>
+0045b689 +075 Sigma.exe SysUtils                RaiseLastOSError
+004b88fd +031 Sigma.exe Controls                TWinControl.DestroyWindowHandle
+004b7386 +05e Sigma.exe Controls                TWinControl.Destroy
+004bd251 +01d Sigma.exe Controls                TCustomControl.Destroy
+004b73b2 +08a Sigma.exe Controls                TWinControl.Destroy
+004bd251 +01d Sigma.exe Controls                TCustomControl.Destroy
+0052ee68 +038 Sigma.exe SUITabControl  1006  +7 TsuiTab.Destroy
+00530084 +064 Sigma.exe SUIPageControl  413 +10 TsuiPageControl.Destroy
+004b73b2 +08a Sigma.exe Controls                TWinControl.Destroy
+004bd251 +01d Sigma.exe Controls                TCustomControl.Destroy
+005146ad +069 Sigma.exe SUIForm         548 +17 TsuiForm.Destroy
+004b73b2 +08a Sigma.exe Controls                TWinControl.Destroy
+004ccb7c +028 Sigma.exe Forms                   TScrollingWinControl.Destroy
+004cd75f +0ab Sigma.exe Forms                   TCustomForm.Destroy
+00472cb6 +046 Sigma.exe Classes                 TComponent.DestroyComponents
+004cba57 +02f Sigma.exe Forms                   DoneApplication
+00455632 +026 Sigma.exe SysUtils                DoExitProc
+00404b04 +028 Sigma.exe System                  @Halt0
+00555c02 +202 Sigma.exe Sigma            79 +32 initialization
+
+thread $be0:
+7c80252d +0d kernel32.dll           WaitForSingleObject
+77c3a3ad +a6 msvcrt.dll             _endthreadex
+0044fc7d +0d Sigma.exe    madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe    madExcept ThreadExceptFrame
+>> created by main thread ($8dc) at:
+77c3a43d +62 msvcrt.dll             _beginthreadex
+
+thread $e58:
+7c90e397 +0a ntdll.dll            NtReplyWaitReceivePortEx
+0044fc7d +0d Sigma.exe  madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe  madExcept ThreadExceptFrame
+>> created by thread $de4 at:
+77e7df0e +00 RPCRT4.dll
+
+thread $edc (TAvScanner): <suspended>
+0054adaf +1eb Sigma.exe uMain 984 +23 TMainForm.InitScannerKernel
+
+thread $d80:
+7c90e397 +0a ntdll.dll            NtReplyWaitReceivePortEx
+0044fc7d +0d Sigma.exe  madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe  madExcept ThreadExceptFrame
+>> created by thread $e58 at:
+77e7df0e +00 RPCRT4.dll
+
+thread $a80 (TShellChangeThread):
+7c90e9a9 +0a ntdll.dll               NtWaitForMultipleObjects
+7c8094dc +00 kernel32.dll            WaitForMultipleObjectsEx
+7c80a070 +13 kernel32.dll            WaitForMultipleObjects
+00526a26 +56 Sigma.exe    ShellCtrls TShellChangeThread.Execute
+0044fd9b +2b Sigma.exe    madExcept  HookedTThreadExecute
+0047250c +34 Sigma.exe    Classes    ThreadProc
+00404c14 +28 Sigma.exe    System     ThreadWrapper
+0044fc7d +0d Sigma.exe    madExcept  CallThreadProcSafe
+0044fce7 +37 Sigma.exe    madExcept  ThreadExceptFrame
+>> created by main thread ($8dc) at:
+00526970 +48 Sigma.exe    ShellCtrls TShellChangeThread.Create
+
+modules:
+00400000 Sigma.exe             1.0.0.40         C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+006c0000 qtintf70.dll          7.0.4.258        C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+02f40000 Normaliz.dll          6.0.5441.0       C:\windows\system32
+031a0000 btwpimif.dll          5.5.0.7500       C:\WINDOWS\system32
+031f0000 wbtapi.dll            5.5.0.7500       C:\WINDOWS\system32
+032b0000 btosif.dll            5.5.0.7500       C:\WINDOWS\system32
+032f0000 BtXpPanel.Dll         5.5.0.7500       C:\windows\system32
+03330000 btrez.dll             5.5.0.7500       C:\windows\system32
+03540000 btwicons.dll          1.0.0.1          C:\windows\system32
+04120000 ieframe.dll           7.0.6000.16414   C:\WINDOWS\system32
+047f0000 btmmhook.dll          5.5.0.7500       C:\windows\system32
+04840000 btkeyind.dll                           C:\Program Files\WIDCOMM\Bluetooth Software
+049b0000 xpsp2res.dll          5.1.2600.2180    C:\windows\system32
+05720000 FixReg.dll                             C:\Program Files\Borland\Delphi7\Projects\SigmaAV\Plugins
+05790000 borlndmm.dll          7.0.4.453        C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+07160000 audiodev.dll          5.2.5721.5145    C:\windows\system32
+0ffd0000 rsaenh.dll            5.1.2600.2161    C:\windows\system32
+10000000 BTNEIG~1.DLL          5.5.0.7500       C:\WINDOWS\system32
+10930000 portabledeviceapi.dll 5.2.5721.5145    C:\WINDOWS\system32
+11c70000 WMASF.DLL             11.0.5721.5145   C:\windows\system32
+15110000 WMVCore.DLL           11.0.5721.5145   C:\windows\system32
+16210000 wpdshext.dll          5.2.5721.5145    C:\windows\system32
+20000000 odbcint.dll           3.525.1117.0     C:\windows\system32
+44400000 madCHook.dll          2.2.7.0          C:\windows\system32
+47600000 msi.dll               3.1.4000.4003    C:\WINDOWS\system32
+4ec50000 gdiplus.dll           5.1.3102.2180    C:\windows\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.2600.2180_x-ww_522f9f82
+59370000 wiadefui.dll          5.1.2600.2180    C:\windows\System32
+593f0000 wiashext.dll          5.1.2600.2180    C:\windows\system32
+5ad70000 UxTheme.dll           6.0.2900.2845    C:\windows\system32
+5b860000 NETAPI32.dll          5.1.2600.2976    C:\windows\system32
+5edd0000 olepro32.dll          5.1.2600.2180    C:\windows\system32
+61410000 URLMON.DLL            7.0.6000.16414   C:\windows\system32
+661c0000 GRA8E1~1.DLL          12.0.4518.1014   C:\PROGRA~1\MICROS~2\Office12
+68ef0000 GrooveUtil.DLL        12.0.4518.1014   C:\PROGRA~1\MICROS~2\Office12
+68ff0000 GrooveNew.DLL         12.0.4518.1014   C:\PROGRA~1\MICROS~2\Office12
+6e850000 iertutil.dll          7.0.6000.16414   C:\windows\system32
+71aa0000 WS2HELP.dll           5.1.2600.2180    C:\windows\system32
+71ab0000 WS2_32.dll            5.1.2600.2180    C:\windows\system32
+71ad0000 wsock32.dll           5.1.2600.2180    C:\windows\system32
+71b20000 MPR.dll               5.1.2600.2180    C:\windows\system32
+71bf0000 SAMLIB.dll            5.1.2600.2180    C:\windows\System32
+71c10000 ntlanman.dll          5.1.2600.2686    C:\windows\System32
+71c80000 NETRAP.dll            5.1.2600.2180    C:\windows\System32
+71c90000 NETUI1.dll            5.1.2600.2180    C:\windows\System32
+71cd0000 NETUI0.dll            5.1.2600.2180    C:\windows\System32
+73000000 winspool.drv          5.1.2600.2180    C:\windows\system32
+732e0000 RICHED32.DLL          5.1.2600.0       C:\windows\system32
+73380000 zipfldr.dll           6.0.2900.2180    C:\windows\system32
+73ba0000 sti.dll               5.1.2600.2180    C:\WINDOWS\system32
+73d70000 shgina.dll            6.0.2900.2180    C:\WINDOWS\system32
+73dd0000 MFC42.DLL             6.2.4131.0       C:\WINDOWS\system32
+74320000 ODBC32.dll            3.525.1117.0     C:\windows\system32
+74720000 MSCTF.dll             5.1.2600.3085    C:\windows\system32
+74ae0000 CFGMGR32.dll          5.1.2600.2180    C:\WINDOWS\system32
+74e30000 RICHED20.dll          5.30.23.1228     C:\windows\system32
+755c0000 msctfime.ime          5.1.2600.2180    C:\windows\system32
+75970000 MSGINA.dll            5.1.2600.2180    C:\windows\system32
+75f60000 drprov.dll            5.1.2600.2180    C:\windows\System32
+75f70000 davclnt.dll           5.1.2600.2180    C:\windows\System32
+75f80000 browseui.dll          6.0.2900.2995    C:\windows\system32
+76080000 MSVCP60.dll           6.2.3104.0       C:\WINDOWS\system32
+76360000 WINSTA.dll            5.1.2600.2180    C:\windows\system32
+76380000 MSImg32.dll           5.1.2600.2180    C:\windows\system32
+76390000 IMM32.DLL             5.1.2600.2180    C:\windows\system32
+763b0000 comdlg32.dll          6.0.2900.2180    C:\windows\system32
+76600000 CSCDLL.dll            5.1.2600.2180    C:\windows\System32
+76980000 LINKINFO.dll          5.1.2600.2839    C:\windows\system32
+76990000 ntshrui.dll           5.1.2600.2180    C:\windows\system32
+769c0000 USERENV.dll           5.1.2600.2180    C:\windows\system32
+76b20000 ATL.DLL               3.5.2284.0       C:\windows\system32
+76b40000 WINMM.dll             5.1.2600.2180    C:\WINDOWS\system32
+76bf0000 PSAPI.DLL             5.1.2600.2180    C:\WINDOWS\system32
+76c30000 WINTRUST.dll          5.131.2600.2180  C:\windows\system32
+76c90000 IMAGEHLP.DLL          5.1.2600.2180    C:\windows\system32
+76e80000 rtutils.dll           5.1.2600.2180    C:\WINDOWS\system32
+76e90000 rasman.dll            5.1.2600.2180    C:\WINDOWS\system32
+76eb0000 TAPI32.dll            5.1.2600.2180    C:\WINDOWS\system32
+76ee0000 RASAPI32.dll          5.1.2600.2180    C:\WINDOWS\system32
+76fd0000 CLBCATQ.DLL           2001.12.4414.312 C:\windows\system32
+77050000 COMRes.dll            2001.12.4414.258 C:\windows\system32
+77120000 oleaut32.dll          5.1.2600.2180    C:\windows\system32
+771b0000 WININET.dll           7.0.6000.20512   C:\windows\system32
+773d0000 comctl32.dll          6.0.2900.2982    C:\windows\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03
+774e0000 ole32.dll             5.1.2600.2948    C:\windows\system32
+77920000 SETUPAPI.dll          5.1.2600.2938    C:\windows\system32
+77a20000 cscui.dll             5.1.2600.2180    C:\windows\System32
+77a80000 CRYPT32.dll           5.131.2600.2180  C:\windows\system32
+77b20000 MSASN1.dll            5.1.2600.2180    C:\windows\system32
+77b40000 apphelp.dll           5.1.2600.2180    C:\windows\system32
+77c00000 version.dll           5.1.2600.2180    C:\windows\system32
+77c10000 msvcrt.dll            7.0.2600.3085    C:\windows\system32
+77dd0000 advapi32.dll          5.1.2600.2180    C:\windows\system32
+77e70000 RPCRT4.dll            5.1.2600.3173    C:\windows\system32
+77f10000 GDI32.dll             5.1.2600.3099    C:\windows\system32
+77f60000 SHLWAPI.dll           6.0.2900.2995    C:\windows\system32
+77fe0000 Secur32.dll           5.1.2600.2180    C:\windows\system32
+78130000 MSVCR80.dll           8.0.50727.4053   C:\windows\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_e6967989
+7c630000 ATL80.DLL             8.0.50727.4053   C:\windows\WinSxS\x86_Microsoft.VC80.ATL_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_473666fd
+7c800000 kernel32.dll          5.1.2600.2991    C:\windows\system32
+7c900000 ntdll.dll             5.1.2600.2180    C:\windows\system32
+7c9c0000 shell32.dll           6.0.2900.3051    C:\windows\system32
+7e410000 user32.dll            5.1.2600.3099    C:\windows\system32
+
+processes:
+000 Idle              0   0
+004 System            0   0   normal
+2e0 smss.exe          0   0   normal       C:\windows\system32
+330 csrss.exe         62  58  normal       C:\windows\system32
+550 winlogon.exe      44  14  high         C:\windows\system32
+57c services.exe      4   2   normal       C:\windows\system32
+588 lsass.exe         4   1   normal       C:\windows\system32
+620 Ati2evxx.exe      7   7   normal       C:\windows\system32
+630 svchost.exe       4   1   normal       C:\windows\system32
+6a0 svchost.exe       4   1   normal       C:\windows\system32
+6c8 svchost.exe       11  34  normal       C:\windows\System32
+0b4 svchost.exe       4   1   normal       C:\windows\system32
+0d4 svchost.exe       4   1   normal       C:\windows\system32
+20c aswUpdSv.exe      4   1   normal       C:\Program Files\Alwil Software\Avast4
+22c Ati2evxx.exe      7   6   normal       C:\windows\system32
+2e8 ashServ.exe       49  21  high         C:\Program Files\Alwil Software\Avast4
+43c spoolsv.exe       4   4   normal       C:\windows\system32
+654 fbguard.exe       11  6   normal       C:\Program Files\Firebird\Firebird_1_5\bin
+770 fbserver.exe      11  6   normal       C:\Program Files\Firebird\Firebird_1_5\bin
+108 mdm.exe           4   3   normal       C:\Program Files\Common Files\Microsoft Shared\VS7Debug
+128 Explorer.EXE      963 546 normal       C:\windows
+300 svchost.exe       9   5   normal       C:\windows\system32
+834 SynTPEnh.exe      68  39  above normal C:\Program Files\Synaptics\SynTP
+844 btwdins.exe       4   5   normal       C:\Program Files\WIDCOMM\Bluetooth Software\bin
+850 RTHDCPL.EXE       730 166 normal       C:\windows
+870 GrooveMonitor.exe 7   4   normal       C:\Program Files\Microsoft Office\Office12
+88c ashMaiSv.exe      11  6   normal       C:\Program Files\Alwil Software\Avast4
+898 LManager.exe      47  22  normal       C:\Program Files\Launch Manager
+8a8 winampa.exe       10  4   normal       C:\Program Files\Winamp
+8b0 ashWebSv.exe      4   1   normal       C:\Program Files\Alwil Software\Avast4
+8bc ashDisp.exe       83  65  normal       C:\PROGRA~1\ALWILS~1\Avast4
+8d8 Sigma.exe         320 128 normal       C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+8f4 ctfmon.exe        17  11  normal       C:\windows\system32
+a18 alg.exe           4   2   normal       C:\windows\System32
+a20 wscntfy.exe       16  8   normal       C:\windows\system32
+a38 ida.exe           245 119 normal       C:\Program Files\IDA
+a94 BTTray.exe        19  24  normal       C:\Program Files\WIDCOMM\Bluetooth Software
+fd4 MOM.exe           7   9   normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+154 ccc.exe           23  30  normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+4e0 FIREFOX.EXE       75  41  normal       C:\PROGRA~1\MOZILL~1
+334 NOTEPAD.EXE       22  19  normal       C:\windows\system32
+c60 taskmgr.exe       114 128 high         C:\windows\system32
+dd8 mandel.exe        14  3   normal       c:\fpc\2.2.4\demo\graph
+d84 mplayerc.exe      108 197 normal       C:\Program Files\K-Lite Codec Pack\Media Player Classic
+ae4 nhc.exe           92  94  normal       C:\Program Files\Notebook Hardware Control
+c2c mscorsvw.exe      4   2   normal       C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ Bluetooth Devices
+  - Bluetooth Bus Enumerator (driver 5.5.0.7100)
++ Computer
+  - ACPI Multiprocessor PC
++ Disk drives
+  - USB Flash Disk USB Device
+  - WDC WD3200BEVT-22ZCT0
++ Display adapters
+  - AMD M880G with ATI Mobility Radeon HD 4200      (driver 8.634.0.0)
++ DVD/CD-ROM drives
+  - HL-DT-ST DVDRAM GT30N
++ IDE ATA/ATAPI controllers
+  - Primary IDE Channel
+  - Secondary IDE Channel
+  - Standard Dual Channel PCI IDE Controller
++ Imaging devices
+  - USB Video Device
++ Keyboards
+  - Launch Manager (driver 2.0.1.218)
++ Mice and other pointing devices
+  - Synaptics PS/2 Port TouchPad (driver 12.2.2.0)
++ Modems
+  - HDAUDIO Soft Data Fax Modem with SmartCP (driver 7.80.4.53)
++ Monitors
+  - Default Monitor
+  - Default Monitor
+  - Default Monitor
+  - Plug and Play Monitor
++ Network adapters
+  - Atheros AR5B93 Wireless Network Adapter (driver 7.7.0.348)
+  - Atheros AR8131 PCI-E Gigabit Ethernet Controller (driver 1.0.0.23)
++ Ports (COM & LPT)
+  - Bluetooth Communications Port (COM4) (driver 5.5.0.2300)
++ Processors
+  - AMD Turion(tm) II Dual-Core Mobile M520
+  - AMD Turion(tm) II Dual-Core Mobile M520
++ Sound, video and game controllers
+  - ATI Function Driver for High Definition Audio - ATI 791A (driver 5.0.50000.16)
+  - Audio Codecs
+  - Legacy Audio Drivers
+  - Legacy Video Capture Devices
+  - Media Control Devices
+  - Realtek High Definition Audio (driver 5.10.0.5904)
+  - Video Codecs
++ System devices
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - ACPI Sleep Button
+  - ACPI Thermal Zone
+  - ATI SMBus (driver 5.10.1000.8)
+  - Direct memory access controller
+  - ISAPNP Read Data Port
+  - Logical Disk Manager
+  - Microcode Update Device
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Composite Battery
+  - Microsoft System Management BIOS Driver
+  - Microsoft UAA Bus Driver for High Definition Audio
+  - Microsoft UAA Bus Driver for High Definition Audio
+  - Microsoft Windows Management Interface for ACPI
+  - Motherboard resources
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard ISA bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - System board
+  - System CMOS/real time clock
+  - System speaker
+  - System timer
+  - Terminal Server Device Redirector
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - Volume Manager
++ Universal Serial Bus controllers
+  - Standard Enhanced PCI to USB Host Controller
+  - Standard Enhanced PCI to USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - USB Composite Device
+  - USB Mass Storage Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 015a269c
+ebx = 00000578
+ecx = 00000000
+edx = 0045b68e
+esi = 015a8c78
+edi = 015a8c78
+eip = 0045b68e
+esp = 0013fe4c
+ebp = 0013fea0
+
+stack dump:
+0013fe4c  8e b6 45 00 de fa ed 0e - 01 00 00 00 07 00 00 00  ..E.............
+0013fe5c  60 fe 13 00 8e b6 45 00 - 9c 26 5a 01 78 05 00 00  `.....E..&Z.x...
+0013fe6c  78 8c 5a 01 78 8c 5a 01 - a0 fe 13 00 7c fe 13 00  x.Z.x.Z.....|...
+0013fe7c  a8 fe 13 00 3c 45 40 00 - a0 fe 13 00 00 e5 55 00  ....<E@.......U.
+0013fe8c  00 00 00 00 78 05 00 00 - 00 6c 5a 01 5c 75 a5 03  ....x....lZ.\u..
+0013fe9c  0b da 41 7e b8 fe 13 00 - 02 89 4b 00 5c ff 13 00  ..A~......K.\...
+0013feac  3c 45 40 00 b8 fe 13 00 - 78 8c 5a 01 44 6c 5a 01  <E@.....x.Z.DlZ.
+0013febc  8c 73 4b 00 44 6c 5a 01 - 78 8c 5a 01 01 e5 55 00  .sK.DlZ.x.Z...U.
+0013fecc  56 d2 4b 00 78 8c 5a 01 - 00 e5 55 00 b5 73 4b 00  V.K.x.Z...U..sK.
+0013fedc  03 00 00 00 44 6c 5a 01 - 00 e5 55 00 56 d2 4b 00  ....DlZ...U.V.K.
+0013feec  44 6c 5a 01 00 e5 55 00 - 6d ee 52 00 00 00 00 00  DlZ...U.m.R.....
+0013fefc  01 e5 55 00 89 00 53 00 - 70 ff 13 00 dc 59 5a 01  ..U...S.p....YZ.
+0013ff0c  44 6c 5a 01 00 e5 55 00 - b5 73 4b 00 c8 3c 5a 01  DlZ...U..sK..<Z.
+0013ff1c  dc 59 5a 01 00 e5 55 00 - 56 d2 4b 00 dc 59 5a 01  .YZ...U.V.K..YZ.
+0013ff2c  01 e5 55 00 b2 46 51 00 - dc 59 5a 01 00 00 00 00  ..U..FQ..YZ.....
+0013ff3c  b5 73 4b 00 c8 3c 5a 01 - c8 3c 5a 01 00 00 00 00  .sK..<Z..<Z.....
+0013ff4c  81 cb 4c 00 14 22 5a 01 - 88 26 5a 01 64 d7 4c 00  ..L.."Z..&Z.d.L.
+0013ff5c  b4 ff 13 00 3c 45 40 00 - 70 ff 13 00 14 22 5a 01  ....<E@.p...."Z.
+0013ff6c  c8 3c 5a 01 0c 56 45 00 - b9 2c 47 00 48 e0 55 00  .<Z..VE..,G.H.U.
+0013ff7c  00 60 55 00 28 ba 4c 00 - 5c ba 4c 00 34 56 45 00  .`U.(.L.\.L.4VE.
+
+disassembling:
+[...]
+0052ee59 1004           eax, eax
+0052ee5b                [esi+$260], eax
+0052ee61 1006           edx, ebx
+0052ee63                dl, -4
+0052ee66                eax, esi
+0052ee68      >         -$71c39 ($4bd234)      ; Controls.TCustomControl.Destroy
+0052ee6d                bl, bl
+0052ee6f                loc_52ee78
+0052ee71                eax, esi
+0052ee73                -$12ad4c ($40412c)     ; System.@ClassDestroy
+0052ee78 1007           esi
+[...]
+
+date/time         : 2009-12-21, 08:42:14, 500ms
+computer name     : FCOMPUTER-03120
+user name         : FComputer <admin>
+registered owner  : admin / admin
+operating system  : Windows XP Service Pack 2 build 2600
+system language   : English
+system up time    : 6 minutes 44 seconds
+program up time   : 12 seconds
+processors        : 2x AMD Turion(tm) II Dual-Core Mobile M520
+physical memory   : 192/764 MB (free/total)
+free disk space   : (C:) 85,55 GB
+display mode      : 1366x768, 32 bit
+process id        : $2e0
+allocated memory  : 15,86 MB
+command line      : "C:\Program Files\Borland\Delphi7\Projects\SigmaAV\Sigma.exe" D:\Virus & Antivirus\Proyek\Sigma3\Al VirusScan Final Version 1.6.8\scan.ldb
+executable        : Sigma.exe
+exec. date/time   : 2009-12-18 19:09
+version           : 1.0.0.41
+compiled with     : Delphi 7
+madExcept version : 3.0k
+callstack crc     : $ff2e495b, $5d6345a9, $5d6345a9
+exception number  : 1
+exception class   : EOSError
+exception message : System Error. Code: 1400. Invalid window handle.
+
+main thread ($478): <priority:2>
+0045b689 +075 Sigma.exe SysUtils                RaiseLastOSError
+004b88fd +031 Sigma.exe Controls                TWinControl.DestroyWindowHandle
+004b7386 +05e Sigma.exe Controls                TWinControl.Destroy
+004bd251 +01d Sigma.exe Controls                TCustomControl.Destroy
+004b73b2 +08a Sigma.exe Controls                TWinControl.Destroy
+004bd251 +01d Sigma.exe Controls                TCustomControl.Destroy
+0052ee68 +038 Sigma.exe SUITabControl  1006  +7 TsuiTab.Destroy
+00530084 +064 Sigma.exe SUIPageControl  413 +10 TsuiPageControl.Destroy
+004b73b2 +08a Sigma.exe Controls                TWinControl.Destroy
+004bd251 +01d Sigma.exe Controls                TCustomControl.Destroy
+005146ad +069 Sigma.exe SUIForm         548 +17 TsuiForm.Destroy
+004b73b2 +08a Sigma.exe Controls                TWinControl.Destroy
+004ccb7c +028 Sigma.exe Forms                   TScrollingWinControl.Destroy
+004cd75f +0ab Sigma.exe Forms                   TCustomForm.Destroy
+00472cb6 +046 Sigma.exe Classes                 TComponent.DestroyComponents
+004cba57 +02f Sigma.exe Forms                   DoneApplication
+00455632 +026 Sigma.exe SysUtils                DoExitProc
+00404b04 +028 Sigma.exe System                  @Halt0
+005550ea +202 Sigma.exe Sigma            79 +32 initialization
+
+thread $ee8:
+7c90e9a9 +0a ntdll.dll              NtWaitForMultipleObjects
+0044fc7d +0d Sigma.exe    madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe    madExcept ThreadExceptFrame
+>> created by main thread ($478) at:
+77dfa17c +00 advapi32.dll
+
+thread $c9c:
+7c90e9be +0a ntdll.dll              NtWaitForSingleObject
+7c8025c5 +85 kernel32.dll           WaitForSingleObjectEx
+7c80252d +0d kernel32.dll           WaitForSingleObject
+77c3a3ad +a6 msvcrt.dll             _endthreadex
+0044fc7d +0d Sigma.exe    madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe    madExcept ThreadExceptFrame
+>> created by main thread ($478) at:
+77c3a43d +62 msvcrt.dll             _beginthreadex
+
+thread $7b4 (TShellChangeThread):
+7c90e9a9 +0a ntdll.dll               NtWaitForMultipleObjects
+7c8094dc +00 kernel32.dll            WaitForMultipleObjectsEx
+7c80a070 +13 kernel32.dll            WaitForMultipleObjects
+00526a26 +56 Sigma.exe    ShellCtrls TShellChangeThread.Execute
+0044fd9b +2b Sigma.exe    madExcept  HookedTThreadExecute
+0047250c +34 Sigma.exe    Classes    ThreadProc
+00404c14 +28 Sigma.exe    System     ThreadWrapper
+0044fc7d +0d Sigma.exe    madExcept  CallThreadProcSafe
+0044fce7 +37 Sigma.exe    madExcept  ThreadExceptFrame
+>> created by main thread ($478) at:
+00526970 +48 Sigma.exe    ShellCtrls TShellChangeThread.Create
+
+thread $99c:
+7c90e397 +0a ntdll.dll            NtReplyWaitReceivePortEx
+0044fc7d +0d Sigma.exe  madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe  madExcept ThreadExceptFrame
+>> created by main thread ($478) at:
+77e7df0e +00 RPCRT4.dll
+
+thread $4a4:
+7c90d85a +0a ntdll.dll              NtDelayExecution
+7c8023e7 +4b kernel32.dll           SleepEx
+7c80244c +0a kernel32.dll           Sleep
+0044fc7d +0d Sigma.exe    madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe    madExcept ThreadExceptFrame
+>> created by main thread ($478) at:
+7752fd94 +00 ole32.dll
+
+thread $820:
+7c90e397 +0a ntdll.dll            NtReplyWaitReceivePortEx
+0044fc7d +0d Sigma.exe  madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe  madExcept ThreadExceptFrame
+>> created by thread $99c at:
+77e7df0e +00 RPCRT4.dll
+
+thread $9e0:
+7c90e397 +0a ntdll.dll            NtReplyWaitReceivePortEx
+0044fc7d +0d Sigma.exe  madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe  madExcept ThreadExceptFrame
+>> created by thread $99c at:
+77e7df0e +00 RPCRT4.dll
+
+modules:
+00400000 Sigma.exe             1.0.0.41         C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+006c0000 qtintf70.dll          7.0.4.258        C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+02a40000 btmmhook.dll          5.5.0.7500       C:\windows\system32
+02de0000 ntshrui.dll           5.1.2600.2180    C:\windows\system32
+03090000 Normaliz.dll          6.0.5441.0       C:\windows\system32
+032f0000 btwpimif.dll          5.5.0.7500       C:\WINDOWS\system32
+03340000 BTNEIG~1.DLL          5.5.0.7500       C:\WINDOWS\system32
+03460000 wbtapi.dll            5.5.0.7500       C:\WINDOWS\system32
+03520000 btosif.dll            5.5.0.7500       C:\WINDOWS\system32
+03560000 BtXpPanel.Dll         5.5.0.7500       C:\windows\system32
+035a0000 btrez.dll             5.5.0.7500       C:\windows\system32
+037b0000 btwicons.dll          1.0.0.1          C:\windows\system32
+04390000 ieframe.dll           7.0.6000.16414   C:\WINDOWS\system32
+04ae0000 xpsp2res.dll          5.1.2600.2180    C:\windows\system32
+058d0000 CryRemover.dll                         C:\Program Files\Borland\Delphi7\Projects\SigmaAV\Plugins
+05940000 borlndmm.dll          7.0.4.453        C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+05a60000 FixReg.dll                             C:\Program Files\Borland\Delphi7\Projects\SigmaAV\Plugins
+07160000 audiodev.dll          5.2.5721.5145    C:\windows\system32
+0ffd0000 rsaenh.dll            5.1.2600.2161    C:\windows\system32
+10000000 UberIcon.dll                           C:\WINDOWS\BricoPacks\Vista Inspirat 2\UberIcon
+10930000 portabledeviceapi.dll 5.2.5721.5145    C:\WINDOWS\system32
+11c70000 WMASF.DLL             11.0.5721.5145   C:\windows\system32
+15110000 WMVCore.DLL           11.0.5721.5145   C:\windows\system32
+16210000 wpdshext.dll          5.2.5721.5145    C:\windows\system32
+20000000 odbcint.dll           3.525.1117.0     C:\windows\system32
+44400000 madCHook.dll          2.2.7.0          C:\windows\system32
+47600000 msi.dll               3.1.4000.4003    C:\WINDOWS\system32
+4ec50000 gdiplus.dll           5.1.3102.2180    C:\windows\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.2600.2180_x-ww_522f9f82
+59370000 wiadefui.dll          5.1.2600.2180    C:\windows\System32
+593f0000 wiashext.dll          5.1.2600.2180    C:\windows\system32
+5ad70000 uxtheme.dll           6.0.2900.2845    C:\windows\system32
+5b860000 NETAPI32.dll          5.1.2600.2976    C:\windows\system32
+5edd0000 olepro32.dll          5.1.2600.2180    C:\windows\system32
+61410000 URLMON.DLL            7.0.6000.16414   C:\windows\system32
+661c0000 GRA8E1~1.DLL          12.0.4518.1014   C:\PROGRA~1\MICROS~2\Office12
+68ef0000 GrooveUtil.DLL        12.0.4518.1014   C:\PROGRA~1\MICROS~2\Office12
+68ff0000 GrooveNew.DLL         12.0.4518.1014   C:\PROGRA~1\MICROS~2\Office12
+6e850000 iertutil.dll          7.0.6000.16414   C:\windows\system32
+71aa0000 WS2HELP.dll           5.1.2600.2180    C:\windows\system32
+71ab0000 WS2_32.dll            5.1.2600.2180    C:\windows\system32
+71ad0000 wsock32.dll           5.1.2600.2180    C:\windows\system32
+71b20000 MPR.dll               5.1.2600.2180    C:\windows\system32
+71bf0000 SAMLIB.dll            5.1.2600.2180    C:\windows\System32
+71c10000 ntlanman.dll          5.1.2600.2686    C:\windows\System32
+71c80000 NETRAP.dll            5.1.2600.2180    C:\windows\System32
+71c90000 NETUI1.dll            5.1.2600.2180    C:\windows\System32
+71cd0000 NETUI0.dll            5.1.2600.2180    C:\windows\System32
+73000000 winspool.drv          5.1.2600.2180    C:\windows\system32
+732e0000 RICHED32.DLL          5.1.2600.0       C:\windows\system32
+73ba0000 sti.dll               5.1.2600.2180    C:\WINDOWS\system32
+73d70000 shgina.dll            6.0.2900.2180    C:\WINDOWS\system32
+73dd0000 MFC42.DLL             6.2.4131.0       C:\WINDOWS\system32
+74320000 ODBC32.dll            3.525.1117.0     C:\windows\system32
+74720000 MSCTF.dll             5.1.2600.3085    C:\windows\system32
+74ae0000 CFGMGR32.dll          5.1.2600.2180    C:\WINDOWS\system32
+74e30000 RICHED20.dll          5.30.23.1228     C:\windows\system32
+755c0000 msctfime.ime          5.1.2600.2180    C:\windows\system32
+75970000 MSGINA.dll            5.1.2600.2180    C:\windows\system32
+75f60000 drprov.dll            5.1.2600.2180    C:\windows\System32
+75f70000 davclnt.dll           5.1.2600.2180    C:\windows\System32
+75f80000 browseui.dll          6.0.2900.2995    C:\windows\system32
+76080000 MSVCP60.dll           6.2.3104.0       C:\WINDOWS\system32
+76360000 WINSTA.dll            5.1.2600.2180    C:\windows\system32
+76380000 MSImg32.dll           5.1.2600.2180    C:\windows\system32
+76390000 IMM32.DLL             5.1.2600.2180    C:\windows\system32
+763b0000 comdlg32.dll          6.0.2900.2180    C:\windows\system32
+76600000 CSCDLL.dll            5.1.2600.2180    C:\windows\System32
+76980000 LINKINFO.dll          5.1.2600.2839    C:\windows\system32
+769c0000 USERENV.dll           5.1.2600.2180    C:\windows\system32
+76b20000 ATL.DLL               3.5.2284.0       C:\windows\system32
+76b40000 WINMM.dll             5.1.2600.2180    C:\WINDOWS\system32
+76bf0000 PSAPI.DLL             5.1.2600.2180    C:\WINDOWS\system32
+76c30000 WINTRUST.dll          5.131.2600.2180  C:\windows\system32
+76c90000 IMAGEHLP.DLL          5.1.2600.2180    C:\windows\system32
+76e80000 rtutils.dll           5.1.2600.2180    C:\WINDOWS\system32
+76e90000 rasman.dll            5.1.2600.2180    C:\WINDOWS\system32
+76eb0000 TAPI32.dll            5.1.2600.2180    C:\WINDOWS\system32
+76ee0000 RASAPI32.dll          5.1.2600.2180    C:\WINDOWS\system32
+76fd0000 CLBCATQ.DLL           2001.12.4414.312 C:\windows\system32
+77050000 COMRes.dll            2001.12.4414.258 C:\windows\system32
+77120000 oleaut32.dll          5.1.2600.2180    C:\windows\system32
+771b0000 WININET.dll           7.0.6000.20512   C:\windows\system32
+773d0000 comctl32.dll          6.0.2900.2982    C:\windows\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03
+774e0000 ole32.dll             5.1.2600.2948    C:\windows\system32
+77920000 SETUPAPI.dll          5.1.2600.2938    C:\windows\system32
+77a20000 cscui.dll             5.1.2600.2180    C:\windows\System32
+77a80000 CRYPT32.dll           5.131.2600.2180  C:\windows\system32
+77b20000 MSASN1.dll            5.1.2600.2180    C:\windows\system32
+77b40000 apphelp.dll           5.1.2600.2180    C:\windows\system32
+77c00000 version.dll           5.1.2600.2180    C:\windows\system32
+77c10000 msvcrt.dll            7.0.2600.3085    C:\windows\system32
+77dd0000 advapi32.dll          5.1.2600.2180    C:\windows\system32
+77e70000 RPCRT4.dll            5.1.2600.3173    C:\windows\system32
+77f10000 GDI32.dll             5.1.2600.3099    C:\windows\system32
+77f60000 SHLWAPI.dll           6.0.2900.2995    C:\windows\system32
+77fe0000 Secur32.dll           5.1.2600.2180    C:\windows\system32
+78130000 MSVCR80.dll           8.0.50727.4053   C:\windows\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_e6967989
+7c630000 ATL80.DLL             8.0.50727.4053   C:\windows\WinSxS\x86_Microsoft.VC80.ATL_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_473666fd
+7c800000 kernel32.dll          5.1.2600.2991    C:\windows\system32
+7c900000 ntdll.dll             5.1.2600.2180    C:\windows\system32
+7c9c0000 shell32.dll           6.0.2900.3051    C:\windows\system32
+7e410000 user32.dll            5.1.2600.3099    C:\windows\system32
+
+processes:
+000 Idle                         0    0
+004 System                       0    0   normal
+088 smss.exe                     0    0   normal       C:\windows\system32
+410 csrss.exe                    169  99  normal       C:\windows\system32
+598 winlogon.exe                 69   14  high         C:\windows\system32
+5c8 services.exe                 4    2   normal       C:\windows\system32
+5e4 lsass.exe                    4    2   normal       C:\windows\system32
+6b4 Ati2evxx.exe                 11   7   normal       C:\windows\system32
+6cc svchost.exe                  4    1   normal       C:\windows\system32
+720 svchost.exe                  4    1   normal       C:\windows\system32
+174 svchost.exe                  11   36  normal       C:\windows\System32
+4e4 svchost.exe                  4    1   normal       C:\windows\system32
+588 svchost.exe                  4    1   normal       C:\windows\system32
+688 Ati2evxx.exe                 11   6   normal       C:\windows\system32
+14c aswUpdSv.exe                 4    1   normal       C:\Program Files\Alwil Software\Avast4
+208 ashServ.exe                  60   21  high         C:\Program Files\Alwil Software\Avast4
+54c spoolsv.exe                  4    4   normal       C:\windows\system32
+470 Explorer.EXE                 590  356 normal       C:\windows
+498 SynTPEnh.exe                 78   33  above normal C:\Program Files\Synaptics\SynTP
+538 RTHDCPL.EXE                  816  159 normal       C:\windows
+778 GrooveMonitor.exe            18   4   normal       C:\Program Files\Microsoft Office\Office12
+794 LManager.exe                 47   15  normal       C:\Program Files\Launch Manager
+79c ashDisp.exe                  99   61  normal       C:\PROGRA~1\ALWILS~1\Avast4
+7b0 nhc.exe                      107  93  normal       C:\Program Files\Notebook Hardware Control
+0c0 Sigma.exe                    566  210 normal       C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+12c ctfmon.exe                   33   11  normal       C:\windows\system32
+154 ida.exe                      1703 597 normal       C:\Program Files\IDA
+1ac GoogleUpdate.exe             18   6   normal       C:\Documents and Settings\FComputer\Local Settings\Application Data\Google\Update
+220 NBCore.exe                   37   7   normal       C:\Program Files\Common Files\Nero\Nero BackItUp 4
+348 FreeRAM XP Pro 1.30.exe      94   81  normal       D:\Downloads
+45c mscorsvw.exe                 4    2   normal       C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727
+3a0 fbguard.exe                  15   6   normal       C:\Program Files\Firebird\Firebird_1_5\bin
+4c0 BTTray.exe                   19   20  normal       C:\Program Files\WIDCOMM\Bluetooth Software
+77c fbserver.exe                 15   6   normal       C:\Program Files\Firebird\Firebird_1_5\bin
+7dc mdm.exe                      4    3   normal       C:\Program Files\Common Files\Microsoft Shared\VS7Debug
+964 svchost.exe                  9    5   normal       C:\windows\system32
+ca8 UberIcon Manager.exe         23   11  high         C:\WINDOWS\BricoPacks\Vista Inspirat 2\UberIcon
+fec TuneUpUtilitiesService32.exe 4    7   normal       C:\Program Files\TuneUp Utilities 2010
+7d4 vmware-usbarbitrator.exe     4    2   normal       C:\Program Files\Common Files\VMware\USB
+890 vmnat.exe                    4    2   normal       C:\windows\system32
+8b8 vmnetdhcp.exe                4    1   normal       C:\windows\system32
+918 vmware-authd.exe             4    1   normal       C:\Program Files\VMware\VMware Workstation
+fac btwdins.exe                  4    5   normal       C:\Program Files\WIDCOMM\Bluetooth Software\bin
+870 ashMaiSv.exe                 15   6   normal       C:\Program Files\Alwil Software\Avast4
+960 ashWebSv.exe                 4    1   normal       C:\Program Files\Alwil Software\Avast4
+abc TuneUpUtilitiesApp32.exe     232  102 normal       C:\Program Files\TuneUp Utilities 2010
+b7c wscntfy.exe                  20   6   normal       C:\windows\system32
+f94 NBService.exe                4    3   normal       C:\Program Files\Common Files\Nero\Nero BackItUp 4
+620 MOM.exe                      11   9   normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+37c wmiprvse.exe                 7    6   normal       C:\WINDOWS\system32\wbem
+c44 alg.exe                      4    2   normal       C:\windows\System32
+47c wuauclt.exe                  4    4   normal       C:\windows\system32
+0d8 ccc.exe                      35   29  normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+ab0 VB6.EXE                      333  157 normal       C:\Program Files\Microsoft Visual Studio\VB98
+858 msiexec.exe                  4    5   normal       C:\WINDOWS\system32
+b90 chrome.exe                   64   36  normal       C:\Documents and Settings\FComputer\Local Settings\Application Data\Google\Chrome\Application
+a2c chrome.exe                   64   36  normal       C:\Documents and Settings\FComputer\Local Settings\Application Data\Google\Chrome\Application
+c14 chrome.exe                   25   2   normal       C:\Documents and Settings\FComputer\Local Settings\Application Data\Google\Chrome\Application
+c40 chrome.exe                   25   2   normal       C:\Documents and Settings\FComputer\Local Settings\Application Data\Google\Chrome\Application
+490 chrome.exe                   16   12  normal       C:\Documents and Settings\FComputer\Local Settings\Application Data\Google\Chrome\Application
+33c chrome.exe                   16   12  normal       C:\Documents and Settings\FComputer\Local Settings\Application Data\Google\Chrome\Application
+2e0 Sigma.exe                    337  132 below normal C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ Bluetooth Devices
+  - Bluetooth Bus Enumerator (driver 5.5.0.7100)
++ Computer
+  - ACPI Multiprocessor PC
++ Disk drives
+  - WDC WD3200BEVT-22ZCT0
++ Display adapters
+  - AMD M880G with ATI Mobility Radeon HD 4200      (driver 8.634.0.0)
++ DVD/CD-ROM drives
+  - HL-DT-ST DVDRAM GT30N
++ IDE ATA/ATAPI controllers
+  - Primary IDE Channel
+  - Secondary IDE Channel
+  - Standard Dual Channel PCI IDE Controller
++ Imaging devices
+  - USB Video Device
++ Keyboards
+  - Launch Manager (driver 2.0.1.218)
++ Mice and other pointing devices
+  - Synaptics PS/2 Port TouchPad (driver 12.2.2.0)
++ Modems
+  - HDAUDIO Soft Data Fax Modem with SmartCP (driver 7.80.4.53)
+  - VIA Telecom USB Modem (driver 2.0.17.0)
++ Monitors
+  - Default Monitor
+  - Default Monitor
+  - Default Monitor
+  - Plug and Play Monitor
++ Network adapters
+  - Atheros AR5B93 Wireless Network Adapter (driver 7.7.0.348)
+  - Atheros AR8131 PCI-E Gigabit Ethernet Controller (driver 1.0.0.23)
+  - VMware Virtual Ethernet Adapter for VMnet1 (driver 4.0.3.0)
+  - VMware Virtual Ethernet Adapter for VMnet8 (driver 4.0.3.0)
++ Ports (COM & LPT)
+  - Bluetooth Communications Port (COM4) (driver 5.5.0.2300)
++ Processors
+  - AMD Turion(tm) II Dual-Core Mobile M520
+  - AMD Turion(tm) II Dual-Core Mobile M520
++ Sound, video and game controllers
+  - ATI Function Driver for High Definition Audio - ATI 791A (driver 5.0.50000.16)
+  - Audio Codecs
+  - Legacy Audio Drivers
+  - Legacy Video Capture Devices
+  - Media Control Devices
+  - Realtek High Definition Audio (driver 5.10.0.5904)
+  - Video Codecs
++ System devices
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - ACPI Sleep Button
+  - ACPI Thermal Zone
+  - ATI SMBus (driver 5.10.1000.8)
+  - Direct memory access controller
+  - ISAPNP Read Data Port
+  - Logical Disk Manager
+  - Microcode Update Device
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Composite Battery
+  - Microsoft System Management BIOS Driver
+  - Microsoft UAA Bus Driver for High Definition Audio
+  - Microsoft UAA Bus Driver for High Definition Audio
+  - Microsoft Windows Management Interface for ACPI
+  - Motherboard resources
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard ISA bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - System board
+  - System CMOS/real time clock
+  - System speaker
+  - System timer
+  - Terminal Server Device Redirector
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - Volume Manager
++ Universal Serial Bus controllers
+  - Standard Enhanced PCI to USB Host Controller
+  - Standard Enhanced PCI to USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - VIA Telecom USB ETS (driver 2.0.17.0)
+  - VIA Telecom USB HUB (driver 2.0.17.0)
+
+cpu registers:
+eax = 015a02cc
+ebx = 00000578
+ecx = 00000000
+edx = 0045b68e
+esi = 015a8750
+edi = 015a8750
+eip = 0045b68e
+esp = 0013fe4c
+ebp = 0013fea0
+
+stack dump:
+0013fe4c  8e b6 45 00 de fa ed 0e - 01 00 00 00 07 00 00 00  ..E.............
+0013fe5c  60 fe 13 00 8e b6 45 00 - cc 02 5a 01 78 05 00 00  `.....E...Z.x...
+0013fe6c  50 87 5a 01 50 87 5a 01 - a0 fe 13 00 7c fe 13 00  P.Z.P.Z.....|...
+0013fe7c  a8 fe 13 00 3c 45 40 00 - a0 fe 13 00 00 e5 55 00  ....<E@.......U.
+0013fe8c  00 00 00 00 78 05 00 00 - 00 8b 5a 01 68 60 77 05  ....x.....Z.h`w.
+0013fe9c  0b da 41 7e b8 fe 13 00 - 02 89 4b 00 5c ff 13 00  ..A~......K.\...
+0013feac  3c 45 40 00 b8 fe 13 00 - 50 87 5a 01 88 8b 5a 01  <E@.....P.Z...Z.
+0013febc  8c 73 4b 00 88 8b 5a 01 - 50 87 5a 01 01 e5 55 00  .sK...Z.P.Z...U.
+0013fecc  56 d2 4b 00 50 87 5a 01 - 00 e5 55 00 b5 73 4b 00  V.K.P.Z...U..sK.
+0013fedc  03 00 00 00 88 8b 5a 01 - 00 e5 55 00 56 d2 4b 00  ......Z...U.V.K.
+0013feec  88 8b 5a 01 00 e5 55 00 - 6d ee 52 00 00 00 00 00  ..Z...U.m.R.....
+0013fefc  01 e5 55 00 89 00 53 00 - 70 ff 13 00 4c 5a 5a 01  ..U...S.p...LZZ.
+0013ff0c  88 8b 5a 01 00 e5 55 00 - b5 73 4b 00 38 3d 5a 01  ..Z...U..sK.8=Z.
+0013ff1c  4c 5a 5a 01 00 e5 55 00 - 56 d2 4b 00 4c 5a 5a 01  LZZ...U.V.K.LZZ.
+0013ff2c  01 e5 55 00 b2 46 51 00 - 4c 5a 5a 01 00 00 00 00  ..U..FQ.LZZ.....
+0013ff3c  b5 73 4b 00 38 3d 5a 01 - 38 3d 5a 01 00 00 00 00  .sK.8=Z.8=Z.....
+0013ff4c  81 cb 4c 00 14 22 5a 01 - 88 26 5a 01 64 d7 4c 00  ..L.."Z..&Z.d.L.
+0013ff5c  b4 ff 13 00 3c 45 40 00 - 70 ff 13 00 14 22 5a 01  ....<E@.p...."Z.
+0013ff6c  38 3d 5a 01 0c 56 45 00 - b9 2c 47 00 48 e0 55 00  8=Z..VE..,G.H.U.
+0013ff7c  00 60 55 00 28 ba 4c 00 - 5c ba 4c 00 34 56 45 00  .`U.(.L.\.L.4VE.
+
+disassembling:
+[...]
+0052ee59 1004           eax, eax
+0052ee5b                [esi+$260], eax
+0052ee61 1006           edx, ebx
+0052ee63                dl, -4
+0052ee66                eax, esi
+0052ee68      >         -$71c39 ($4bd234)      ; Controls.TCustomControl.Destroy
+0052ee6d                bl, bl
+0052ee6f                loc_52ee78
+0052ee71                eax, esi
+0052ee73                -$12ad4c ($40412c)     ; System.@ClassDestroy
+0052ee78 1007           esi
+[...]
+
+date/time         : 2009-12-21, 15:11:39, 671ms
+computer name     : FCOMPUTER-03120
+user name         : FComputer <admin>
+registered owner  : admin / admin
+operating system  : Windows XP Service Pack 2 build 2600
+system language   : English
+system up time    : 6 hours 36 minutes
+program up time   : 5 minutes 32 seconds
+processors        : 2x AMD Turion(tm) II Dual-Core Mobile M520
+physical memory   : 220/764 MB (free/total)
+free disk space   : (C:) 81,12 GB
+display mode      : 1366x768, 32 bit
+process id        : $db0
+allocated memory  : 23,21 MB
+executable        : Sigma.exe
+exec. date/time   : 2009-12-18 19:09
+version           : 1.0.0.41
+compiled with     : Delphi 7
+madExcept version : 3.0k
+callstack crc     : $bb876aa8, $086422af, $db0280fa
+count             : 3
+exception number  : 2
+exception class   : EInvalidOperation
+exception message : Canvas does not allow drawing.
+
+thread $adc (TAvScanner):
+00477201 +03d Sigma.exe Graphics           TCanvas.RequiredState
+00477102 +012 Sigma.exe Graphics           TCanvas.GetHandle
+004a9cdd +135 Sigma.exe StdCtrls           TCustomLabel.DoDrawText
+004a9e92 +062 Sigma.exe StdCtrls           TCustomLabel.AdjustBounds
+004aa03d +011 Sigma.exe StdCtrls           TCustomLabel.CMTextChanged
+004b60f8 +188 Sigma.exe Controls           TControl.WndProc
+004b5ec8 +024 Sigma.exe Controls           TControl.Perform
+004b4cb9 +01d Sigma.exe Controls           TControl.SetTextBuf
+004b4d2a +03a Sigma.exe Controls           TControl.SetText
+00552a3e +49a Sigma.exe avScanner 1159 +52 ScanDird
+00552698 +0f4 Sigma.exe avScanner 1125 +18 ScanDird
+00552be2 +026 Sigma.exe avScanner 1173  +2 ScanDir
+005531cf +003 Sigma.exe avKernel    91  +0 TAvScanner.AvScanDir
+005532a6 +082 Sigma.exe avKernel   117 +10 TAvScanner.Execute
+0044fd9b +02b Sigma.exe madExcept          HookedTThreadExecute
+0047250c +034 Sigma.exe Classes            ThreadProc
+00404c14 +028 Sigma.exe System             ThreadWrapper
+0044fc7d +00d Sigma.exe madExcept          CallThreadProcSafe
+0044fce7 +037 Sigma.exe madExcept          ThreadExceptFrame
+>> created by main thread ($ab0) at:
+0054aaa4 +0a0 Sigma.exe uMain     1091 +14 TMainForm.ScanBTNClick
+
+main thread ($ab0): <priority:2>
+7e419406 +00a user32.dll              WaitMessage
+004d54dc +0f0 Sigma.exe  Forms        TApplication.Idle
+004d4b23 +017 Sigma.exe  Forms        TApplication.HandleMessage
+004d4d36 +096 Sigma.exe  Forms        TApplication.Run
+005550c0 +1d8 Sigma.exe  Sigma 78 +31 initialization
+
+thread $38c:
+7c90e9a9 +0a ntdll.dll              NtWaitForMultipleObjects
+7c8094dc +00 kernel32.dll           WaitForMultipleObjectsEx
+0044fc7d +0d Sigma.exe    madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe    madExcept ThreadExceptFrame
+>> created by main thread ($ab0) at:
+77dfa17c +00 advapi32.dll
+
+thread $22c:
+7c90e9be +0a ntdll.dll              NtWaitForSingleObject
+7c8025c5 +85 kernel32.dll           WaitForSingleObjectEx
+7c80252d +0d kernel32.dll           WaitForSingleObject
+77c3a3ad +a6 msvcrt.dll             _endthreadex
+0044fc7d +0d Sigma.exe    madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe    madExcept ThreadExceptFrame
+>> created by main thread ($ab0) at:
+77c3a43d +62 msvcrt.dll             _beginthreadex
+
+thread $b28 (TShellChangeThread):
+7c90e9a9 +0a ntdll.dll               NtWaitForMultipleObjects
+7c8094dc +00 kernel32.dll            WaitForMultipleObjectsEx
+7c80a070 +13 kernel32.dll            WaitForMultipleObjects
+00526a26 +56 Sigma.exe    ShellCtrls TShellChangeThread.Execute
+0044fd9b +2b Sigma.exe    madExcept  HookedTThreadExecute
+0047250c +34 Sigma.exe    Classes    ThreadProc
+00404c14 +28 Sigma.exe    System     ThreadWrapper
+0044fc7d +0d Sigma.exe    madExcept  CallThreadProcSafe
+0044fce7 +37 Sigma.exe    madExcept  ThreadExceptFrame
+>> created by main thread ($ab0) at:
+00526970 +48 Sigma.exe    ShellCtrls TShellChangeThread.Create
+
+thread $efc:
+7c90e397 +0a ntdll.dll            NtReplyWaitReceivePortEx
+0044fc7d +0d Sigma.exe  madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe  madExcept ThreadExceptFrame
+>> created by main thread ($ab0) at:
+77e7df0e +00 RPCRT4.dll
+
+thread $6c8:
+7c90e9be +0a ntdll.dll              NtWaitForSingleObject
+7c8025c5 +85 kernel32.dll           WaitForSingleObjectEx
+0044fc7d +0d Sigma.exe    madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe    madExcept ThreadExceptFrame
+>> created by main thread ($ab0) at:
+7752fd94 +00 ole32.dll
+
+thread $788:
+7c90e397 +0a ntdll.dll            NtReplyWaitReceivePortEx
+0044fc7d +0d Sigma.exe  madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe  madExcept ThreadExceptFrame
+>> created by thread $efc at:
+77e7df0e +00 RPCRT4.dll
+
+thread $444 (TAvScanner): <suspended>
+0054a277 +1eb Sigma.exe uMain 984 +23 TMainForm.InitScannerKernel
+
+thread $ff4:
+7c90e397 +0a ntdll.dll            NtReplyWaitReceivePortEx
+0044fc7d +0d Sigma.exe  madExcept CallThreadProcSafe
+0044fce7 +37 Sigma.exe  madExcept ThreadExceptFrame
+>> created by thread $efc at:
+77e7df0e +00 RPCRT4.dll
+
+thread $db8 (TAvScanner): <suspended>
+7c90dfe6 +000a ntdll.dll                        NtQueryInformationFile
+7c81378e +2c00 kernel32.dll                     SetFilePointer
+004562be +0022 Sigma.exe    SysUtils            FileSeek
+0046c922 +0012 Sigma.exe    Classes             THandleStream.Seek
+0046c4b9 +0025 Sigma.exe    Classes             TStream.GetSize
+0054ee3e +014e Sigma.exe    avHex      278  +16 ScanIki
+005505ac +08b8 Sigma.exe    avScanner  506 +171 ScanFile
+005528a3 +02ff Sigma.exe    avScanner 1143  +36 ScanDird
+00552698 +00f4 Sigma.exe    avScanner 1125  +18 ScanDird
+00552be2 +0026 Sigma.exe    avScanner 1173   +2 ScanDir
+005531cf +0003 Sigma.exe    avKernel    91   +0 TAvScanner.AvScanDir
+005532a6 +0082 Sigma.exe    avKernel   117  +10 TAvScanner.Execute
+0044fd9b +002b Sigma.exe    madExcept           HookedTThreadExecute
+0047250c +0034 Sigma.exe    Classes             ThreadProc
+00404c14 +0028 Sigma.exe    System              ThreadWrapper
+0044fc7d +000d Sigma.exe    madExcept           CallThreadProcSafe
+0044fce7 +0037 Sigma.exe    madExcept           ThreadExceptFrame
+>> created by main thread ($ab0) at:
+0054aaa4 +00a0 Sigma.exe    uMain     1091  +14 TMainForm.ScanBTNClick
+
+modules:
+00400000 Sigma.exe             1.0.0.41         C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+006c0000 qtintf70.dll          7.0.4.258        C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+02ca0000 ntshrui.dll           5.1.2600.2180    C:\windows\system32
+02f50000 Normaliz.dll          6.0.5441.0       C:\windows\system32
+031b0000 btwpimif.dll          5.5.0.7500       C:\WINDOWS\system32
+03200000 wbtapi.dll            5.5.0.7500       C:\WINDOWS\system32
+032c0000 btosif.dll            5.5.0.7500       C:\WINDOWS\system32
+03300000 BtXpPanel.Dll         5.5.0.7500       C:\windows\system32
+03340000 btrez.dll             5.5.0.7500       C:\windows\system32
+03550000 btwicons.dll          1.0.0.1          C:\windows\system32
+04130000 ieframe.dll           7.0.6000.16414   C:\WINDOWS\system32
+04880000 xpsp2res.dll          5.1.2600.2180    C:\windows\system32
+05610000 CryRemover.dll                         C:\Program Files\Borland\Delphi7\Projects\SigmaAV\Plugins
+05680000 borlndmm.dll          7.0.4.453        C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+057a0000 FixReg.dll                             C:\Program Files\Borland\Delphi7\Projects\SigmaAV\Plugins
+07160000 audiodev.dll          5.2.5721.5145    C:\windows\system32
+0ffd0000 rsaenh.dll            5.1.2600.2161    C:\windows\system32
+10000000 BTNEIG~1.DLL          5.5.0.7500       C:\WINDOWS\system32
+10930000 portabledeviceapi.dll 5.2.5721.5145    C:\WINDOWS\system32
+11c70000 WMASF.DLL             11.0.5721.5145   C:\windows\system32
+15110000 WMVCore.DLL           11.0.5721.5145   C:\windows\system32
+16210000 wpdshext.dll          5.2.5721.5145    C:\windows\system32
+20000000 odbcint.dll           3.525.1117.0     C:\windows\system32
+44400000 madCHook.dll          2.2.7.0          C:\windows\system32
+47600000 msi.dll               3.1.4000.4003    C:\WINDOWS\system32
+4ec50000 gdiplus.dll           5.1.3102.2180    C:\windows\WinSxS\x86_Microsoft.Windows.GdiPlus_6595b64144ccf1df_1.0.2600.2180_x-ww_522f9f82
+59370000 wiadefui.dll          5.1.2600.2180    C:\windows\System32
+593f0000 wiashext.dll          5.1.2600.2180    C:\windows\system32
+5ad70000 uxtheme.dll           6.0.2900.2845    C:\windows\system32
+5b860000 NETAPI32.dll          5.1.2600.2976    C:\windows\system32
+5edd0000 olepro32.dll          5.1.2600.2180    C:\windows\system32
+61410000 URLMON.DLL            7.0.6000.16414   C:\windows\system32
+661c0000 GRA8E1~1.DLL          12.0.4518.1014   C:\PROGRA~1\MICROS~2\Office12
+68ef0000 GrooveUtil.DLL        12.0.4518.1014   C:\PROGRA~1\MICROS~2\Office12
+68ff0000 GrooveNew.DLL         12.0.4518.1014   C:\PROGRA~1\MICROS~2\Office12
+6e850000 iertutil.dll          7.0.6000.16414   C:\windows\system32
+71aa0000 WS2HELP.dll           5.1.2600.2180    C:\windows\system32
+71ab0000 WS2_32.dll            5.1.2600.2180    C:\windows\system32
+71ad0000 wsock32.dll           5.1.2600.2180    C:\windows\system32
+71b20000 MPR.dll               5.1.2600.2180    C:\windows\system32
+71bf0000 SAMLIB.dll            5.1.2600.2180    C:\windows\System32
+71c10000 ntlanman.dll          5.1.2600.2686    C:\windows\System32
+71c80000 NETRAP.dll            5.1.2600.2180    C:\windows\System32
+71c90000 NETUI1.dll            5.1.2600.2180    C:\windows\System32
+71cd0000 NETUI0.dll            5.1.2600.2180    C:\windows\System32
+73000000 winspool.drv          5.1.2600.2180    C:\windows\system32
+732e0000 RICHED32.DLL          5.1.2600.0       C:\windows\system32
+73ba0000 sti.dll               5.1.2600.2180    C:\WINDOWS\system32
+73d70000 shgina.dll            6.0.2900.2180    C:\WINDOWS\system32
+73dd0000 MFC42.DLL             6.2.4131.0       C:\WINDOWS\system32
+74320000 ODBC32.dll            3.525.1117.0     C:\windows\system32
+74720000 MSCTF.dll             5.1.2600.3085    C:\windows\system32
+74ae0000 CFGMGR32.dll          5.1.2600.2180    C:\WINDOWS\system32
+74e30000 RICHED20.dll          5.30.23.1228     C:\windows\system32
+755c0000 msctfime.ime          5.1.2600.2180    C:\windows\system32
+75970000 MSGINA.dll            5.1.2600.2180    C:\windows\system32
+75f60000 drprov.dll            5.1.2600.2180    C:\windows\System32
+75f70000 davclnt.dll           5.1.2600.2180    C:\windows\System32
+75f80000 browseui.dll          6.0.2900.2995    C:\windows\system32
+76080000 MSVCP60.dll           6.2.3104.0       C:\WINDOWS\system32
+76360000 WINSTA.dll            5.1.2600.2180    C:\windows\system32
+76380000 MSImg32.dll           5.1.2600.2180    C:\windows\system32
+76390000 IMM32.DLL             5.1.2600.2180    C:\windows\system32
+763b0000 comdlg32.dll          6.0.2900.2180    C:\windows\system32
+76600000 CSCDLL.dll            5.1.2600.2180    C:\windows\System32
+76980000 LINKINFO.dll          5.1.2600.2839    C:\windows\system32
+769c0000 USERENV.dll           5.1.2600.2180    C:\windows\system32
+76b20000 ATL.DLL               3.5.2284.0       C:\windows\system32
+76b40000 WINMM.dll             5.1.2600.2180    C:\WINDOWS\system32
+76bf0000 PSAPI.DLL             5.1.2600.2180    C:\WINDOWS\system32
+76c30000 WINTRUST.dll          5.131.2600.2180  C:\windows\system32
+76c90000 IMAGEHLP.DLL          5.1.2600.2180    C:\windows\system32
+76e80000 rtutils.dll           5.1.2600.2180    C:\WINDOWS\system32
+76e90000 rasman.dll            5.1.2600.2180    C:\WINDOWS\system32
+76eb0000 TAPI32.dll            5.1.2600.2180    C:\WINDOWS\system32
+76ee0000 RASAPI32.dll          5.1.2600.2180    C:\WINDOWS\system32
+76fd0000 CLBCATQ.DLL           2001.12.4414.312 C:\windows\system32
+77050000 COMRes.dll            2001.12.4414.258 C:\windows\system32
+77120000 oleaut32.dll          5.1.2600.2180    C:\windows\system32
+771b0000 WININET.dll           7.0.6000.20512   C:\windows\system32
+773d0000 comctl32.dll          6.0.2900.2982    C:\windows\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2982_x-ww_ac3f9c03
+774e0000 ole32.dll             5.1.2600.2948    C:\windows\system32
+77920000 SETUPAPI.dll          5.1.2600.2938    C:\windows\system32
+77a20000 cscui.dll             5.1.2600.2180    C:\windows\System32
+77a80000 CRYPT32.dll           5.131.2600.2180  C:\windows\system32
+77b20000 MSASN1.dll            5.1.2600.2180    C:\windows\system32
+77b40000 apphelp.dll           5.1.2600.2180    C:\windows\system32
+77c00000 version.dll           5.1.2600.2180    C:\windows\system32
+77c10000 msvcrt.dll            7.0.2600.3085    C:\windows\system32
+77dd0000 advapi32.dll          5.1.2600.2180    C:\windows\system32
+77e70000 RPCRT4.dll            5.1.2600.3173    C:\windows\system32
+77f10000 GDI32.dll             5.1.2600.3099    C:\windows\system32
+77f60000 SHLWAPI.dll           6.0.2900.2995    C:\windows\system32
+77fe0000 Secur32.dll           5.1.2600.2180    C:\windows\system32
+78130000 MSVCR80.dll           8.0.50727.4053   C:\windows\WinSxS\x86_Microsoft.VC80.CRT_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_e6967989
+7c630000 ATL80.DLL             8.0.50727.4053   C:\windows\WinSxS\x86_Microsoft.VC80.ATL_1fc8b3b9a1e18e3b_8.0.50727.4053_x-ww_473666fd
+7c800000 kernel32.dll          5.1.2600.2991    C:\windows\system32
+7c900000 ntdll.dll             5.1.2600.2180    C:\windows\system32
+7c9c0000 shell32.dll           6.0.2900.3051    C:\windows\system32
+7e410000 user32.dll            5.1.2600.3099    C:\windows\system32
+
+processes:
+000 Idle                         0    0
+004 System                       0    0   normal
+088 smss.exe                     0    0   normal C:\windows\system32
+410 csrss.exe                    172  93  normal C:\windows\system32
+598 winlogon.exe                 69   14  high   C:\windows\system32
+5c8 services.exe                 4    2   normal C:\windows\system32
+5e4 lsass.exe                    4    2   normal C:\windows\system32
+6b4 Ati2evxx.exe                 11   7   normal C:\windows\system32
+6cc svchost.exe                  4    1   normal C:\windows\system32
+720 svchost.exe                  4    1   normal C:\windows\system32
+174 svchost.exe                  11   46  normal C:\windows\System32
+4e4 svchost.exe                  4    1   normal C:\windows\system32
+588 svchost.exe                  4    1   normal C:\windows\system32
+688 Ati2evxx.exe                 11   7   normal C:\windows\system32
+14c aswUpdSv.exe                 4    1   normal C:\Program Files\Alwil Software\Avast4
+208 ashServ.exe                  60   25  high   C:\Program Files\Alwil Software\Avast4
+54c spoolsv.exe                  4    4   normal C:\windows\system32
+79c ashDisp.exe                  325  142 normal C:\PROGRA~1\ALWILS~1\Avast4
+154 ida.exe                      1796 728 normal C:\Program Files\IDA
+3a0 fbguard.exe                  15   6   normal C:\Program Files\Firebird\Firebird_1_5\bin
+77c fbserver.exe                 15   6   normal C:\Program Files\Firebird\Firebird_1_5\bin
+7dc mdm.exe                      4    3   normal C:\Program Files\Common Files\Microsoft Shared\VS7Debug
+964 svchost.exe                  9    5   normal C:\windows\system32
+fec TuneUpUtilitiesService32.exe 4    5   normal C:\Program Files\TuneUp Utilities 2010
+7d4 vmware-usbarbitrator.exe     4    2   normal C:\Program Files\Common Files\VMware\USB
+890 vmnat.exe                    4    2   normal C:\windows\system32
+8b8 vmnetdhcp.exe                4    1   normal C:\windows\system32
+918 vmware-authd.exe             4    1   normal C:\Program Files\VMware\VMware Workstation
+fac btwdins.exe                  4    5   normal C:\Program Files\WIDCOMM\Bluetooth Software\bin
+870 ashMaiSv.exe                 15   6   normal C:\Program Files\Alwil Software\Avast4
+960 ashWebSv.exe                 4    1   normal C:\Program Files\Alwil Software\Avast4
+f94 NBService.exe                4    2   normal C:\Program Files\Common Files\Nero\Nero BackItUp 4
+c44 alg.exe                      4    2   normal C:\windows\System32
+d74 dllhost.exe                  4    5   normal C:\WINDOWS\system32
+c34 msdtc.exe                    4    2   normal C:\WINDOWS\system32
+864 TuneUpUtilitiesApp32.exe     232  102 normal C:\Program Files\TuneUp Utilities 2010
+c8c wscntfy.exe                  32   10  normal C:\windows\system32
+ce8 explorer.exe                 964  546 normal C:\windows
+348 VB6.EXE                      1002 596 normal C:\Program Files\Microsoft Visual Studio\VB98
+584 VB6.EXE                      549  268 normal C:\Program Files\Microsoft Visual Studio\VB98
+85c GoogleUpdate.exe             11   4   normal C:\Documents and Settings\FComputer\Local Settings\Application Data\Google\Update
+bf0 NeroStartSmart.exe           519  289 normal C:\Program Files\Nero\Nero 9\Nero StartSmart
+c28 NMDllHost.exe                11   17  high   C:\Program Files\Nero\Nero 9\Nero StartSmart
+4f0 ctfmon.exe                   28   11  normal C:\windows\system32
+b7c RTHDCPL.EXE                  852  211 normal C:\windows
+db0 Sigma.exe                    753  292 normal C:\Program Files\Borland\Delphi7\Projects\SigmaAV
+134 taskmgr.exe                  124  129 high   C:\windows\system32
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ Bluetooth Devices
+  - Bluetooth Bus Enumerator (driver 5.5.0.7100)
++ Computer
+  - ACPI Multiprocessor PC
++ Disk drives
+  - WDC WD3200BEVT-22ZCT0
++ Display adapters
+  - AMD M880G with ATI Mobility Radeon HD 4200      (driver 8.634.0.0)
++ DVD/CD-ROM drives
+  - HL-DT-ST DVDRAM GT30N
++ IDE ATA/ATAPI controllers
+  - Primary IDE Channel
+  - Secondary IDE Channel
+  - Standard Dual Channel PCI IDE Controller
++ Imaging devices
+  - USB Video Device
++ Keyboards
+  - Launch Manager (driver 2.0.1.218)
++ Mice and other pointing devices
+  - Synaptics PS/2 Port TouchPad (driver 12.2.2.0)
++ Modems
+  - HDAUDIO Soft Data Fax Modem with SmartCP (driver 7.80.4.53)
+  - VIA Telecom USB Modem #2 (driver 2.0.17.0)
++ Monitors
+  - Default Monitor
+  - Default Monitor
+  - Default Monitor
+  - Plug and Play Monitor
++ Network adapters
+  - Atheros AR5B93 Wireless Network Adapter (driver 7.7.0.348)
+  - Atheros AR8131 PCI-E Gigabit Ethernet Controller (driver 1.0.0.23)
+  - VMware Virtual Ethernet Adapter for VMnet1 (driver 4.0.3.0)
+  - VMware Virtual Ethernet Adapter for VMnet8 (driver 4.0.3.0)
++ Ports (COM & LPT)
+  - Bluetooth Communications Port (COM4) (driver 5.5.0.2300)
++ Processors
+  - AMD Turion(tm) II Dual-Core Mobile M520
+  - AMD Turion(tm) II Dual-Core Mobile M520
++ Sound, video and game controllers
+  - ATI Function Driver for High Definition Audio - ATI 791A (driver 5.0.50000.16)
+  - Audio Codecs
+  - Legacy Audio Drivers
+  - Legacy Video Capture Devices
+  - Media Control Devices
+  - Realtek High Definition Audio (driver 5.10.0.5904)
+  - Video Codecs
++ System devices
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - ACPI Sleep Button
+  - ACPI Thermal Zone
+  - ATI SMBus (driver 5.10.1000.8)
+  - Direct memory access controller
+  - ISAPNP Read Data Port
+  - Logical Disk Manager
+  - Microcode Update Device
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Composite Battery
+  - Microsoft System Management BIOS Driver
+  - Microsoft UAA Bus Driver for High Definition Audio
+  - Microsoft UAA Bus Driver for High Definition Audio
+  - Microsoft Windows Management Interface for ACPI
+  - Motherboard resources
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard host CPU bridge
+  - PCI standard ISA bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - PCI standard PCI-to-PCI bridge
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - System board
+  - System CMOS/real time clock
+  - System speaker
+  - System timer
+  - Terminal Server Device Redirector
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - Volume Manager
++ Universal Serial Bus controllers
+  - Standard Enhanced PCI to USB Host Controller
+  - Standard Enhanced PCI to USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - Standard OpenHCD USB Host Controller
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - VIA Telecom USB ETS (driver 2.0.17.0)
+  - VIA Telecom USB HUB (driver 2.0.17.0)
+
+cpu registers:
+eax = 05c32cd0
+ebx = fea54c0f
+ecx = 00000000
+edx = 00477206
+esi = 015ab338
+edi = 02a3f341
+eip = 00477206
+esp = 02a3f2c4
+ebp = 02a3f338
+
+stack dump:
+02a3f2c4  06 72 47 00 de fa ed 0e - 01 00 00 00 07 00 00 00  .rG.............
+02a3f2d4  d8 f2 a3 02 06 72 47 00 - d0 2c c3 05 0f 4c a5 fe  .....rG..,...L..
+02a3f2e4  38 b3 5a 01 41 f3 a3 02 - 38 f3 a3 02 f4 f2 a3 02  8.Z.A...8.......
+02a3f2f4  0f b3 5a 01 40 04 00 00 - 38 b3 5a 01 07 71 47 00  ..Z.@...8.Z..qG.
+02a3f304  0c b1 5a 01 e2 9c 4a 00 - a8 2c c3 05 23 00 00 00  ..Z...J..,..#...
+02a3f314  41 f3 a3 02 40 04 00 00 - c0 f4 a3 02 3c 45 40 00  A...@.......<E@.
+02a3f324  38 f3 a3 02 0c b1 5a 01 - a8 9b 4a 00 6e 18 01 52  8.....Z...J.n..R
+02a3f334  00 00 00 00 90 f4 a3 02 - 97 9e 4a 00 9c 00 00 00  ..........J.....
+02a3f344  00 00 00 00 00 a0 00 00 - 00 0d 00 00 00 00 00 00  ................
+02a3f354  02 00 00 00 30 9e 4a 00 - 0c b1 5a 01 42 a0 4a 00  ....0.J...Z.B.J.
+02a3f364  0c b1 5a 01 9c f4 a3 02 - fb 60 4b 00 02 00 00 00  ..Z......`K.....
+02a3f374  18 2c c3 05 0c b1 5a 01 - 00 00 00 00 00 00 00 00  .,....Z.........
+02a3f384  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+02a3f394  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+02a3f3a4  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+02a3f3b4  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+02a3f3c4  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+02a3f3d4  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+02a3f3e4  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+02a3f3f4  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+
+disassembling:
+[...]
+00552a26                -$14da3b ($404ff0)     ; System.@LStrCatN
+00552a2b                edx, [ebp-$1d4]
+00552a31                eax, [$55ca74]
+00552a36                eax, [eax]
+00552a38                eax, [eax+$358]
+00552a3e      >         -$9dd53 ($4b4cf0)      ; Controls.TControl.SetText
+00552a43 1160           eax, [$55ca74]
+00552a48                eax, [eax]
+00552a4a                eax, [eax+$468]
+00552a50                edx, [eax+$16c]
+00552a56                ecx, [$55ca74]
+[...]
+

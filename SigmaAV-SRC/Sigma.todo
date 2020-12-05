@@ -1,0 +1,11 @@
+{TODO 1 -oF_Computer -cEngine : Tambah Analisa PE file Executable}
+{DONE 1 -oF_Computer -cEngine : Kecepatan scanning < 40 detik}
+{DONE 1 -oF_Computer -cEngine : Pindah icon heur sebelum engine}
+{DONE 1 -oF_Computer -cEngine : Unicode detection}
+{DONE 1 -oF_Computer -cEngine : add detection to vironika.vbs virus}
+{DONE 1 -oF_Computer -cEngine : Ndandani Delete All, Quar. All, Repair All yang baru}
+{TODO 2 -oF_Computer -cEngine : Add Zip Extractor}
+{DONE 1 -oF_Computer -cEngine : Repair Heuristic method}
+{DONE 1 -oF_Computer -cEngine : Add carantina}
+{DONE 1 -oF_Computer -cEngine : Repair Plug-in}
+{DONE 1 -oF_Computer -cEngine : Repair generator procedure}
